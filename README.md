@@ -12,7 +12,7 @@ S-LAB에서 개발한 위치측위플랫폼 S-LBS를 이용하여 SSG PAY UX를 개선해 본 프로토타
 여러 가지 방법으로 Today 위젯을 테스트 해 보려다 보니 SSG PAY 위젯이 네 개가 들어있는데,
 SSG PAY 4가 최종 위젯입니다.
 
-<최초에 SSG PAY 위젯이 안 보이게 하는 소스>
+-최초에 SSG PAY 위젯이 안 보이게 하는 소스
 
 TodayViewController.swift 에서
 
@@ -24,7 +24,7 @@ override func viewDidLoad() {
         
 ```
 
-<SSG PAY 1 진입 이벤트 발생 시 위젯을 보여주는 소스>
+-SSG PAY 1 진입 이벤트 발생 시 위젯을 보여주는 소스
 
 CompainManager.m 에서
 
