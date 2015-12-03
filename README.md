@@ -16,27 +16,27 @@ SSG PAY 4가 최종 위젯입니다.
 
 TodayViewController.swift 에서
 
-“`
+`
 override func viewDidLoad() {
     ...
     NCWidgetController.widgetController().setHasContent(false, forWidgetWithBundleIdentifier: "com.ssg.platform.lbs.SSG-LBS-Platform.SSG-PAY4")
     ...
         
-“`
+`
 
 <SSG PAY 1 진입 이벤트 발생 시 위젯을 보여주는 소스>
 
 CompainManager.m 에서
 
 
-“`
+`
 - (void)processCampaign:(SLBSZoneCampaignInfo*)zoneCampaignInfo {
     ...
     if ([foundCampaign.title compare:@"SSG Pay 1 진입"]==NSOrderedSame) {
         [[NCWidgetController widgetController] setHasContent:YES forWidgetWithBundleIdentifier:@"com.ssg.platform.lbs.SSG-LBS-Platform.SSG-PAY4"];
     }
     ...
-“`
+`
 
 ## Contributors
 
