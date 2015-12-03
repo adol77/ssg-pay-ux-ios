@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>73E3C899-AAA1-466A-9F90-D75EEF258942</string>
+	<key>IDESourceControlProjectName</key>
+	<string>indoormap-sample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>67F62EC776B9B6DFF6509D5E26AB42E282A3721D</key>
+		<string>https://github.com/NemusGit/s-lbs-client.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ios/Prototype/indoormap-sample/indoormap-sample.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>67F62EC776B9B6DFF6509D5E26AB42E282A3721D</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/NemusGit/s-lbs-client.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>67F62EC776B9B6DFF6509D5E26AB42E282A3721D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>67F62EC776B9B6DFF6509D5E26AB42E282A3721D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>s-lbs-client</string>
+		</dict>
+	</array>
+</dict>
+</plist>

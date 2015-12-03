@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>--company-id</key>
+	<string>com.ssg.platform.lbs</string>
+	<key>--ignore</key>
+	<array>
+		<string>ThirdParty</string>
+		<string>Libraries</string>
+		<string>Frameworks</string>
+		<string>Testing</string>
+		<string>SLBSSDKTests</string>
+	</array>
+	<key>--logformat</key>
+	<integer>1</integer>
+	<key>--print-settings</key>
+	<true/>
+	<key>--project-company</key>
+	<string>SHINSEGAE I&amp;C</string>
+	<key>--docset-install-path</key>
+	<string>../../doc/AppleDoc</string>
+	<key>--project-name</key>
+	<string>SSG-LBS-Platform</string>
+	<key>--repeat-first-par</key>
+	<false/>
+	<key>--templates</key>
+	<string>./Templates</string>
+	<key>--verbose</key>
+	<string>1.0</string>
+</dict>
+</plist>

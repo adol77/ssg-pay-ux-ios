@@ -1,0 +1,1555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		5DAD33A01B8E161D009CA7DF /* Framework */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5DAD33A11B8E161D009CA7DF /* Build configuration list for PBXAggregateTarget "Framework" */;
+			buildPhases = (
+				5DAD33A61B8E1643009CA7DF /* MultiPlatform Build */,
+			);
+			dependencies = (
+				5DAD33A51B8E162C009CA7DF /* PBXTargetDependency */,
+			);
+			name = Framework;
+			productName = Framework;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		5D3ED8391BBEADF100E96584 /* LogManagerTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3ED8381BBEADF100E96584 /* LogManagerTestCase.m */; };
+		5D3ED83B1BBEADFF00E96584 /* LogDataManagerTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3ED83A1BBEADFF00E96584 /* LogDataManagerTestCase.m */; };
+		5D3ED83D1BBEAE0D00E96584 /* LogNetTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3ED83C1BBEAE0D00E96584 /* LogNetTestCase.m */; };
+		5D56A71D1BA14EF70015902C /* AESExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D56A71B1BA14EF70015902C /* AESExtention.h */; };
+		5D56A71E1BA14EF70015902C /* AESExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D56A71C1BA14EF70015902C /* AESExtention.m */; };
+		5D58D1271BB1539B0083E3A9 /* Policy.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D58D1231BB1539B0083E3A9 /* Policy.h */; };
+		5D58D1281BB1539B0083E3A9 /* Policy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D58D1241BB1539B0083E3A9 /* Policy.m */; };
+		5D58D1291BB1539B0083E3A9 /* PolicyManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D58D1251BB1539B0083E3A9 /* PolicyManager.h */; };
+		5D58D12A1BB1539B0083E3A9 /* PolicyManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D58D1261BB1539B0083E3A9 /* PolicyManager.m */; };
+		5D5903441BCDEE2600DEE1C1 /* SLBSCompany.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D5903421BCDEE2600DEE1C1 /* SLBSCompany.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D5903451BCDEE2600DEE1C1 /* SLBSCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5903431BCDEE2600DEE1C1 /* SLBSCompany.m */; };
+		5D59034A1BCDF0C700DEE1C1 /* SLBSBrand.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D5903481BCDF0C700DEE1C1 /* SLBSBrand.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D59034B1BCDF0C700DEE1C1 /* SLBSBrand.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5903491BCDF0C700DEE1C1 /* SLBSBrand.m */; };
+		5D59034E1BCDF1B900DEE1C1 /* SLBSBranch.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D59034C1BCDF1B900DEE1C1 /* SLBSBranch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D59034F1BCDF1B900DEE1C1 /* SLBSBranch.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D59034D1BCDF1B900DEE1C1 /* SLBSBranch.m */; };
+		5D5903521BCDF59300DEE1C1 /* SLBSFloor.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D5903501BCDF59300DEE1C1 /* SLBSFloor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D5903531BCDF59300DEE1C1 /* SLBSFloor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5903511BCDF59300DEE1C1 /* SLBSFloor.m */; };
+		5D5903561BCDF7B700DEE1C1 /* DataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D5903541BCDF7B700DEE1C1 /* DataManager.h */; };
+		5D5903571BCDF7B700DEE1C1 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5903551BCDF7B700DEE1C1 /* DataManager.m */; };
+		5D59035E1BCE2C3D00DEE1C1 /* TenantBizOffInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D59035C1BCE2C3D00DEE1C1 /* TenantBizOffInfo.h */; };
+		5D59035F1BCE2C3D00DEE1C1 /* TenantBizOffInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D59035D1BCE2C3D00DEE1C1 /* TenantBizOffInfo.m */; };
+		5D5903621BCE2C4B00DEE1C1 /* TenantBizTimeInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D5903601BCE2C4B00DEE1C1 /* TenantBizTimeInfo.h */; };
+		5D5903631BCE2C4B00DEE1C1 /* TenantBizTimeInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5903611BCE2C4B00DEE1C1 /* TenantBizTimeInfo.m */; };
+		5D59A74C1B8EC9C400763627 /* ZoneCoord.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D59A74A1B8EC9C400763627 /* ZoneCoord.h */; };
+		5D59A74D1B8EC9C400763627 /* ZoneCoord.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D59A74B1B8EC9C400763627 /* ZoneCoord.m */; };
+		5D5AB34F1BCCB232000C8FB5 /* SLBSDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D5AB34D1BCCB232000C8FB5 /* SLBSDataManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D5AB3501BCCB232000C8FB5 /* SLBSDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5AB34E1BCCB232000C8FB5 /* SLBSDataManager.m */; };
+		5D5AB3531BCCF982000C8FB5 /* DataNet.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D5AB3511BCCF982000C8FB5 /* DataNet.h */; };
+		5D5AB3541BCCF982000C8FB5 /* DataNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5AB3521BCCF982000C8FB5 /* DataNet.m */; };
+		5D5CB9BC1B99365E00D71B91 /* BeaconUUID.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D5CB9BA1B99365E00D71B91 /* BeaconUUID.h */; };
+		5D5CB9BD1B99365E00D71B91 /* BeaconUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5CB9BB1B99365E00D71B91 /* BeaconUUID.m */; };
+		5D5DDD281B9FC8EC00C44F87 /* ProximitySessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D5DDD261B9FC8EC00C44F87 /* ProximitySessionManager.h */; };
+		5D5DDD291B9FC8EC00C44F87 /* ProximitySessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5DDD271B9FC8EC00C44F87 /* ProximitySessionManager.m */; };
+		5D5EDCC71B9D36B500CCF62F /* BLEProximity.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5EDCC61B9D36B500CCF62F /* BLEProximity.m */; };
+		5D5EDCCD1B9DA96A00CCF62F /* PositionSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D5EDCCB1B9DA96A00CCF62F /* PositionSessionManager.h */; };
+		5D5EDCCE1B9DA96A00CCF62F /* PositionSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5EDCCC1B9DA96A00CCF62F /* PositionSessionManager.m */; };
+		5D6104C61B9E819D00F8596A /* PositionSessionTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6104C51B9E819D00F8596A /* PositionSessionTestCase.m */; };
+		5D6104C81B9E81AB00F8596A /* ZoneSessionTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D6104C71B9E81AB00F8596A /* ZoneSessionTestCase.m */; };
+		5D655A361BABD376003BEF89 /* GeofenceSuiteTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D655A351BABD376003BEF89 /* GeofenceSuiteTest.m */; };
+		5D655A381BABEAD0003BEF89 /* ApplicationManagerTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D655A371BABEAD0003BEF89 /* ApplicationManagerTestCase.m */; };
+		5D67FD041BBE2A230034FD4E /* LogManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D67FD021BBE2A230034FD4E /* LogManager.h */; };
+		5D67FD051BBE2A230034FD4E /* LogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D67FD031BBE2A230034FD4E /* LogManager.m */; };
+		5D67FD081BBE2C1F0034FD4E /* SLReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D67FD061BBE2C1F0034FD4E /* SLReachability.h */; };
+		5D67FD091BBE2C1F0034FD4E /* SLReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D67FD071BBE2C1F0034FD4E /* SLReachability.m */; };
+		5D67FD0C1BBE2E090034FD4E /* LogNet.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D67FD0A1BBE2E090034FD4E /* LogNet.h */; };
+		5D67FD0D1BBE2E090034FD4E /* LogNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D67FD0B1BBE2E090034FD4E /* LogNet.m */; };
+		5D67FD101BBE4D2A0034FD4E /* LogDataManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D67FD0E1BBE4D2A0034FD4E /* LogDataManager.h */; };
+		5D67FD111BBE4D2A0034FD4E /* LogDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D67FD0F1BBE4D2A0034FD4E /* LogDataManager.m */; };
+		5D67FD131BBE55FD0034FD4E /* Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D67FD121BBE55FD0034FD4E /* Log.m */; };
+		5D69A0601B96F6E800C0CD3C /* BeaconNet.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D69A05E1B96F6E800C0CD3C /* BeaconNet.h */; };
+		5D69A0611B96F6E800C0CD3C /* BeaconNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D69A05F1B96F6E800C0CD3C /* BeaconNet.m */; };
+		5D69A0631B96F70500C0CD3C /* Beacon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D69A0621B96F70500C0CD3C /* Beacon.m */; };
+		5D69A0661B97150800C0CD3C /* BeaconNetworkTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D69A0651B97150800C0CD3C /* BeaconNetworkTestCase.m */; };
+		5D69A0681B97151E00C0CD3C /* BeaconDataTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D69A0671B97151E00C0CD3C /* BeaconDataTestCase.m */; };
+		5D8FB86D1BAAB41800C2D387 /* DeviceNet.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D8FB86B1BAAB41800C2D387 /* DeviceNet.h */; };
+		5D8FB86E1BAAB41800C2D387 /* DeviceNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8FB86C1BAAB41800C2D387 /* DeviceNet.m */; };
+		5DAD32F01B8E1012009CA7DF /* libSLBSSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DAD32E41B8E1012009CA7DF /* libSLBSSDK.a */; };
+		5DAD336B1B8E110D009CA7DF /* ApplicationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD32FF1B8E110D009CA7DF /* ApplicationManager.m */; };
+		5DAD336C1B8E110D009CA7DF /* BeaconDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD33021B8E110D009CA7DF /* BeaconDataManager.m */; };
+		5DAD336E1B8E110D009CA7DF /* DeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD33071B8E110D009CA7DF /* DeviceManager.m */; };
+		5DAD33731B8E110D009CA7DF /* TSDebugLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD33121B8E110D009CA7DF /* TSDebugLogManager.m */; };
+		5DAD33741B8E110D009CA7DF /* TSLogTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD33141B8E110D009CA7DF /* TSLogTableViewController.m */; };
+		5DAD33751B8E110D009CA7DF /* UIViewController+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD33161B8E110D009CA7DF /* UIViewController+Utility.m */; };
+		5DAD33771B8E110D009CA7DF /* Zone.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD331E1B8E110D009CA7DF /* Zone.m */; };
+		5DAD33781B8E110D009CA7DF /* LOCCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD33221B8E110D009CA7DF /* LOCCoordinate.m */; };
+		5DAD33791B8E110D009CA7DF /* KalmanFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD33251B8E110D009CA7DF /* KalmanFilter.m */; };
+		5DAD337A1B8E110D009CA7DF /* LowpassFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD33271B8E110D009CA7DF /* LowpassFilter.m */; };
+		5DAD337B1B8E110D009CA7DF /* MapMatchingFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD33291B8E110D009CA7DF /* MapMatchingFilter.m */; };
+		5DAD337C1B8E110D009CA7DF /* LOCLineSegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD332D1B8E110D009CA7DF /* LOCLineSegment.m */; };
+		5DAD337D1B8E110D009CA7DF /* LOCLocationEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD332F1B8E110D009CA7DF /* LOCLocationEngine.m */; };
+		5DAD337F1B8E110D009CA7DF /* SLBSCoordination.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD33331B8E110D009CA7DF /* SLBSCoordination.m */; };
+		5DAD33801B8E110D009CA7DF /* SLBSLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD33351B8E110D009CA7DF /* SLBSLocationManager.m */; };
+		5DAD33821B8E110D009CA7DF /* BLEControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD333B1B8E110D009CA7DF /* BLEControl.m */; };
+		5DAD33831B8E110D009CA7DF /* BLESuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD333D1B8E110D009CA7DF /* BLESuite.m */; };
+		5DAD33871B8E110D009CA7DF /* LSDummySuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD33451B8E110D009CA7DF /* LSDummySuite.m */; };
+		5DAD33881B8E110D009CA7DF /* GeofenceSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD33481B8E110D009CA7DF /* GeofenceSuite.m */; };
+		5DAD33891B8E110D009CA7DF /* LSSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD334A1B8E110D009CA7DF /* LSSuite.m */; };
+		5DAD338A1B8E110D009CA7DF /* MapDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD334D1B8E110D009CA7DF /* MapDataManager.m */; };
+		5DAD338C1B8E110D009CA7DF /* SLBSMapManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD33511B8E110D009CA7DF /* SLBSMapManager.m */; };
+		5DAD338D1B8E110D009CA7DF /* INNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD33541B8E110D009CA7DF /* INNet.m */; };
+		5DAD338F1B8E110D009CA7DF /* TSNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD33581B8E110D009CA7DF /* TSNet.m */; };
+		5DAD33901B8E110D009CA7DF /* ZoneNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD335A1B8E110D009CA7DF /* ZoneNet.m */; };
+		5DAD33911B8E110D009CA7DF /* SLBSKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD335C1B8E110D009CA7DF /* SLBSKit.m */; };
+		5DAD33921B8E110D009CA7DF /* ZoneDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD33611B8E110D009CA7DF /* ZoneDataManager.m */; };
+		5DAD33941B8E110D009CA7DF /* SLBSZoneCampaignInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD33661B8E110D009CA7DF /* SLBSZoneCampaignInfo.m */; };
+		5DAD33951B8E110D009CA7DF /* SLBSZoneCampaignManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD33681B8E110D009CA7DF /* SLBSZoneCampaignManager.m */; };
+		5DAD33961B8E110D009CA7DF /* ZoneCampaignDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD336A1B8E110D009CA7DF /* ZoneCampaignDataManager.m */; };
+		5DAD33981B8E120E009CA7DF /* ApplicationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DAD32FE1B8E110D009CA7DF /* ApplicationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DAD33991B8E12A5009CA7DF /* SLBSLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DAD33341B8E110D009CA7DF /* SLBSLocationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DAD339A1B8E12AA009CA7DF /* SLBSCoordination.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DAD33321B8E110D009CA7DF /* SLBSCoordination.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DAD339B1B8E12DD009CA7DF /* SLBSMapManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DAD33501B8E110D009CA7DF /* SLBSMapManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DAD339D1B8E12EC009CA7DF /* SLBSZoneCampaignInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DAD33651B8E110D009CA7DF /* SLBSZoneCampaignInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DAD339E1B8E12FB009CA7DF /* SLBSZoneCampaignManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DAD33671B8E110D009CA7DF /* SLBSZoneCampaignManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DAD33B01B8E19FC009CA7DF /* ZoneDataTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD33A81B8E19FC009CA7DF /* ZoneDataTestCase.m */; };
+		5DAD33B11B8E19FC009CA7DF /* DeviceManagerTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD33A91B8E19FC009CA7DF /* DeviceManagerTestCase.m */; };
+		5DAD33B21B8E19FC009CA7DF /* KalmanFilterTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD33AB1B8E19FC009CA7DF /* KalmanFilterTestCase.m */; };
+		5DAD33B31B8E19FC009CA7DF /* LowpassFilterTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD33AC1B8E19FC009CA7DF /* LowpassFilterTestCase.m */; };
+		5DAD33B41B8E19FC009CA7DF /* MapMatchingFilterTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD33AD1B8E19FC009CA7DF /* MapMatchingFilterTestCase.m */; };
+		5DAD33B51B8E19FC009CA7DF /* SLBSKitTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD33AE1B8E19FC009CA7DF /* SLBSKitTestCase.m */; };
+		5DAD33B61B8E19FC009CA7DF /* SLBSSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DAD33AF1B8E19FC009CA7DF /* SLBSSDKTests.m */; };
+		5DB569741B8F0DC2008050DA /* ZoneNetworkTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB569731B8F0DC2008050DA /* ZoneNetworkTestCase.m */; };
+		5DEB2F591B8E33B30054A76D /* TSDebugLogManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DAD33111B8E110D009CA7DF /* TSDebugLogManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8201DC501BAFC28800AA2141 /* GroupLogTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 8201DC4F1BAFC28800AA2141 /* GroupLogTestCase.m */; };
+		82066F561B95648B0028D041 /* ZoneCampaignNet.h in Headers */ = {isa = PBXBuildFile; fileRef = 82066F541B95648B0028D041 /* ZoneCampaignNet.h */; };
+		82066F571B95648B0028D041 /* ZoneCampaignNet.m in Sources */ = {isa = PBXBuildFile; fileRef = 82066F551B95648B0028D041 /* ZoneCampaignNet.m */; };
+		82066F651B959F500028D041 /* NSDate+String.h in Headers */ = {isa = PBXBuildFile; fileRef = 82066F611B959F500028D041 /* NSDate+String.h */; };
+		82066F661B959F500028D041 /* NSDate+String.m in Sources */ = {isa = PBXBuildFile; fileRef = 82066F621B959F500028D041 /* NSDate+String.m */; };
+		82066F671B959F500028D041 /* NSString+SafeCreation.h in Headers */ = {isa = PBXBuildFile; fileRef = 82066F631B959F500028D041 /* NSString+SafeCreation.h */; };
+		82066F681B959F500028D041 /* NSString+SafeCreation.m in Sources */ = {isa = PBXBuildFile; fileRef = 82066F641B959F500028D041 /* NSString+SafeCreation.m */; };
+		82386FC31BB2C46500A94EFD /* MapTitleZoneView.h in Headers */ = {isa = PBXBuildFile; fileRef = 82386FC11BB2C46500A94EFD /* MapTitleZoneView.h */; };
+		82386FC41BB2C46500A94EFD /* MapTitleZoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82386FC21BB2C46500A94EFD /* MapTitleZoneView.m */; };
+		8266CDA51BC3EC4E0024F40E /* MapStoreBIZoneView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8266CDA31BC3EC4E0024F40E /* MapStoreBIZoneView.h */; };
+		8266CDA61BC3EC4E0024F40E /* MapStoreBIZoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8266CDA41BC3EC4E0024F40E /* MapStoreBIZoneView.m */; };
+		82C7BBC91BD61908008246A8 /* NSString+ExtendedStringDrawFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 82C7BBC71BD61908008246A8 /* NSString+ExtendedStringDrawFont.h */; };
+		82C7BBCA1BD61908008246A8 /* NSString+ExtendedStringDrawFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 82C7BBC81BD61908008246A8 /* NSString+ExtendedStringDrawFont.m */; };
+		82CBEEFE1B96D01000B56814 /* NSDate+CalendarUnit.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CBEEFC1B96D01000B56814 /* NSDate+CalendarUnit.h */; };
+		82CBEEFF1B96D01000B56814 /* NSDate+CalendarUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CBEEFD1B96D01000B56814 /* NSDate+CalendarUnit.m */; };
+		82DB9F591BCF48860026C3F6 /* SLBSMapViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 82DB9F571BCF48860026C3F6 /* SLBSMapViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82DB9F5A1BCF48860026C3F6 /* SLBSMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DB9F581BCF48860026C3F6 /* SLBSMapViewController.m */; };
+		82DB9F621BCF6A6A0026C3F6 /* SLBSMapViewData.h in Headers */ = {isa = PBXBuildFile; fileRef = 82DB9F601BCF6A6A0026C3F6 /* SLBSMapViewData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		82DB9F631BCF6A6A0026C3F6 /* SLBSMapViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DB9F611BCF6A6A0026C3F6 /* SLBSMapViewData.m */; };
+		82DB9F661BCF6C310026C3F6 /* SLBSMapViewCommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 82DB9F641BCF6C310026C3F6 /* SLBSMapViewCommon.h */; };
+		82DB9F671BCF6C310026C3F6 /* SLBSMapViewCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DB9F651BCF6C310026C3F6 /* SLBSMapViewCommon.m */; };
+		82DCCFF01B9719BE00033742 /* ZoneCampaignTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DCCFEF1B9719BE00033742 /* ZoneCampaignTestCase.m */; };
+		82DCCFF21B971AD800033742 /* ZoneCampaignDataTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DCCFF11B971AD800033742 /* ZoneCampaignDataTestCase.m */; };
+		82DCCFF41B97DA2100033742 /* ZoneCampaignNetTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DCCFF31B97DA2100033742 /* ZoneCampaignNetTestCase.m */; };
+		82DCCFF81B97E58400033742 /* SLBSMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 82DCCFF61B97E58400033742 /* SLBSMapView.h */; };
+		82DCCFF91B97E58400033742 /* SLBSMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DCCFF71B97E58400033742 /* SLBSMapView.m */; };
+		82DCD05E1B9978A400033742 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DCD0451B99742700033742 /* Location.m */; };
+		82DCD05F1B9978A800033742 /* Polygon.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DCD0491B99742700033742 /* Polygon.m */; };
+		82DCD0601B9978B600033742 /* MapPOIZoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DCD03E1B99742700033742 /* MapPOIZoneView.m */; };
+		82DCD0611B9978B900033742 /* MapPolygonZoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DCD0401B99742700033742 /* MapPolygonZoneView.m */; };
+		82DCD0621B9978C000033742 /* MapZoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DCD0421B99742700033742 /* MapZoneView.m */; };
+		82DCD0631B9978C400033742 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DCD04B1B99742700033742 /* UIView+Additions.m */; };
+		82DCD07C1B9D258200033742 /* MapImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 82DCD07A1B9D258200033742 /* MapImageView.h */; };
+		82DCD07D1B9D258200033742 /* MapImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DCD07B1B9D258200033742 /* MapImageView.m */; };
+		82DCD0801B9D259A00033742 /* MapPathView.h in Headers */ = {isa = PBXBuildFile; fileRef = 82DCD07E1B9D259A00033742 /* MapPathView.h */; };
+		82DCD0811B9D259A00033742 /* MapPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DCD07F1B9D259A00033742 /* MapPathView.m */; };
+		82F1692F1BE384BF005CF9DA /* SLBSPathDirection.h in Headers */ = {isa = PBXBuildFile; fileRef = 82F1692D1BE384BF005CF9DA /* SLBSPathDirection.h */; };
+		82F169301BE384BF005CF9DA /* SLBSPathDirection.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F1692E1BE384BF005CF9DA /* SLBSPathDirection.m */; };
+		AC1456501BA95B1800D69052 /* MapImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = AC14564E1BA95B1800D69052 /* MapImageCache.h */; };
+		AC1456511BA95B1800D69052 /* MapImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = AC14564F1BA95B1800D69052 /* MapImageCache.m */; };
+		AC1456531BA960A800D69052 /* MapImageCacheTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1456521BA960A800D69052 /* MapImageCacheTest.m */; };
+		AC1D007E1B8F43C20082190D /* BLESessionTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1D007D1B8F43C20082190D /* BLESessionTest.m */; };
+		AC1D00801B8F449F0082190D /* BLESessionMgrTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1D007F1B8F449F0082190D /* BLESessionMgrTest.m */; };
+		AC1D00821B8F4B530082190D /* BLESelectorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1D00811B8F4B530082190D /* BLESelectorTest.m */; };
+		AC1D00841B8F4EF60082190D /* BLELocatorTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1D00831B8F4EF60082190D /* BLELocatorTest.m */; };
+		AC1D00871B8F5B9A0082190D /* GeofenceControl.h in Headers */ = {isa = PBXBuildFile; fileRef = AC1D00851B8F5B9A0082190D /* GeofenceControl.h */; };
+		AC1D00881B8F5B9A0082190D /* GeofenceControl.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1D00861B8F5B9A0082190D /* GeofenceControl.m */; };
+		AC1D008A1B8F65110082190D /* BLEControlTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1D00891B8F65110082190D /* BLEControlTest.m */; };
+		AC1D008C1B8F67D70082190D /* GeofenceControlTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1D008B1B8F67D70082190D /* GeofenceControlTest.m */; };
+		AC8B63E81BBEA606001E08CF /* MapPathFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = AC8B63E61BBEA606001E08CF /* MapPathFilter.h */; };
+		AC8B63E91BBEA606001E08CF /* MapPathFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8B63E71BBEA606001E08CF /* MapPathFilter.m */; };
+		AC8B63EB1BBEA89E001E08CF /* MapPathFilterTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AC8B63EA1BBEA89E001E08CF /* MapPathFilterTest.m */; };
+		ACA2ED961BA003440010E2B1 /* MapDataManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA2ED951BA003440010E2B1 /* MapDataManagerTest.m */; };
+		ACA2ED981BA056330010E2B1 /* SLBSMapManagerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA2ED971BA056330010E2B1 /* SLBSMapManagerTest.m */; };
+		ACC9B8A21B8EAEEE00C9D53A /* LSPowerManagePolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = ACC9B8A01B8EAEEE00C9D53A /* LSPowerManagePolicy.h */; };
+		ACC9B8A31B8EAEEE00C9D53A /* LSPowerManagePolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC9B8A11B8EAEEE00C9D53A /* LSPowerManagePolicy.m */; };
+		ACC9B8A71B8EB58800C9D53A /* BLESessionMgr.h in Headers */ = {isa = PBXBuildFile; fileRef = ACC9B8A51B8EB58800C9D53A /* BLESessionMgr.h */; };
+		ACC9B8A81B8EB58800C9D53A /* BLESessionMgr.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC9B8A61B8EB58800C9D53A /* BLESessionMgr.m */; };
+		ACC9B8AB1B8EB59D00C9D53A /* BLELocator.h in Headers */ = {isa = PBXBuildFile; fileRef = ACC9B8A91B8EB59D00C9D53A /* BLELocator.h */; };
+		ACC9B8AC1B8EB59D00C9D53A /* BLELocator.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC9B8AA1B8EB59D00C9D53A /* BLELocator.m */; };
+		ACC9B8AF1B8EB5B600C9D53A /* BLESelector.h in Headers */ = {isa = PBXBuildFile; fileRef = ACC9B8AD1B8EB5B600C9D53A /* BLESelector.h */; };
+		ACC9B8B01B8EB5B600C9D53A /* BLESelector.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC9B8AE1B8EB5B600C9D53A /* BLESelector.m */; };
+		ACC9B8B41B8EDC6C00C9D53A /* LSLocationCandidate.h in Headers */ = {isa = PBXBuildFile; fileRef = ACC9B8B21B8EDC6C00C9D53A /* LSLocationCandidate.h */; };
+		ACC9B8B51B8EDC6C00C9D53A /* LSLocationCandidate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC9B8B31B8EDC6C00C9D53A /* LSLocationCandidate.m */; };
+		ACC9B8C01B8EF55800C9D53A /* BLEBeaconSession.h in Headers */ = {isa = PBXBuildFile; fileRef = ACC9B8BE1B8EF55800C9D53A /* BLEBeaconSession.h */; };
+		ACC9B8C11B8EF55800C9D53A /* BLEBeaconSession.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC9B8BF1B8EF55800C9D53A /* BLEBeaconSession.m */; };
+		ACC9B8C41B8EF5C800C9D53A /* BLEBeaconInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = ACC9B8C21B8EF5C800C9D53A /* BLEBeaconInfo.h */; };
+		ACC9B8C51B8EF5C800C9D53A /* BLEBeaconInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC9B8C31B8EF5C800C9D53A /* BLEBeaconInfo.m */; };
+		ACC9B8C81B8EFD7400C9D53A /* BLEBeaconScan.h in Headers */ = {isa = PBXBuildFile; fileRef = ACC9B8C61B8EFD7400C9D53A /* BLEBeaconScan.h */; };
+		ACC9B8C91B8EFD7400C9D53A /* BLEBeaconScan.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC9B8C71B8EFD7400C9D53A /* BLEBeaconScan.m */; };
+		ACC9B8CB1B8F131000C9D53A /* BeaconInfoTest.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC9B8CA1B8F131000C9D53A /* BeaconInfoTest.m */; };
+		ACCD4E1B1BB39E030075BE8A /* MapPathViewData.h in Headers */ = {isa = PBXBuildFile; fileRef = ACCD4E191BB39E030075BE8A /* MapPathViewData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACCD4E1C1BB39E030075BE8A /* MapPathViewData.m in Sources */ = {isa = PBXBuildFile; fileRef = ACCD4E1A1BB39E030075BE8A /* MapPathViewData.m */; };
+		ACD2BDF21B9D7C7D00887799 /* MapNet.h in Headers */ = {isa = PBXBuildFile; fileRef = ACD2BDF01B9D7C7D00887799 /* MapNet.h */; };
+		ACD2BDF31B9D7C7D00887799 /* MapNet.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD2BDF11B9D7C7D00887799 /* MapNet.m */; };
+		ACD2BDF61B9D7CCF00887799 /* SLBSMapData.h in Headers */ = {isa = PBXBuildFile; fileRef = ACD2BDF41B9D7CCF00887799 /* SLBSMapData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACD2BDF71B9D7CCF00887799 /* SLBSMapData.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD2BDF51B9D7CCF00887799 /* SLBSMapData.m */; };
+		ACD2BDFA1B9D7CE400887799 /* MapGraphInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = ACD2BDF81B9D7CE400887799 /* MapGraphInfo.h */; };
+		ACD2BDFB1B9D7CE400887799 /* MapGraphInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD2BDF91B9D7CE400887799 /* MapGraphInfo.m */; };
+		ACD2BDFE1B9D7F3900887799 /* MapNetworkTest.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD2BDFD1B9D7F3900887799 /* MapNetworkTest.m */; };
+		ACD63BF91BB481AC00218A92 /* BLERoadSource.h in Headers */ = {isa = PBXBuildFile; fileRef = ACD63BF71BB481AC00218A92 /* BLERoadSource.h */; };
+		ACD63BFA1BB481AC00218A92 /* BLERoadSource.m in Sources */ = {isa = PBXBuildFile; fileRef = ACD63BF81BB481AC00218A92 /* BLERoadSource.m */; };
+		ACFD2ED51BAFE85000C9D56C /* Zone.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DAD331D1B8E110D009CA7DF /* Zone.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B190107E1B9EDC960005165B /* INNet.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DAD33531B8E110D009CA7DF /* INNet.h */; };
+		B19010811B9EDD350005165B /* TSNet.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DAD33571B8E110D009CA7DF /* TSNet.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5DAD32F11B8E1012009CA7DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DAD32DC1B8E1012009CA7DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DAD32E31B8E1012009CA7DF;
+			remoteInfo = SLBSSDK;
+		};
+		5DAD33A41B8E162C009CA7DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5DAD32DC1B8E1012009CA7DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5DAD32E31B8E1012009CA7DF;
+			remoteInfo = SLBSSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5DAD32E21B8E1012009CA7DF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5D3ED8381BBEADF100E96584 /* LogManagerTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogManagerTestCase.m; sourceTree = "<group>"; };
+		5D3ED83A1BBEADFF00E96584 /* LogDataManagerTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogDataManagerTestCase.m; sourceTree = "<group>"; };
+		5D3ED83C1BBEAE0D00E96584 /* LogNetTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogNetTestCase.m; sourceTree = "<group>"; };
+		5D56A71B1BA14EF70015902C /* AESExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESExtention.h; sourceTree = "<group>"; };
+		5D56A71C1BA14EF70015902C /* AESExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESExtention.m; sourceTree = "<group>"; };
+		5D58D1231BB1539B0083E3A9 /* Policy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Policy.h; path = SLBSSDK/Common/Policy.h; sourceTree = SOURCE_ROOT; };
+		5D58D1241BB1539B0083E3A9 /* Policy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Policy.m; path = SLBSSDK/Common/Policy.m; sourceTree = SOURCE_ROOT; };
+		5D58D1251BB1539B0083E3A9 /* PolicyManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PolicyManager.h; path = SLBSSDK/Common/PolicyManager.h; sourceTree = SOURCE_ROOT; };
+		5D58D1261BB1539B0083E3A9 /* PolicyManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PolicyManager.m; path = SLBSSDK/Common/PolicyManager.m; sourceTree = SOURCE_ROOT; };
+		5D5903421BCDEE2600DEE1C1 /* SLBSCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBSCompany.h; sourceTree = "<group>"; };
+		5D5903431BCDEE2600DEE1C1 /* SLBSCompany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBSCompany.m; sourceTree = "<group>"; };
+		5D5903481BCDF0C700DEE1C1 /* SLBSBrand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBSBrand.h; sourceTree = "<group>"; };
+		5D5903491BCDF0C700DEE1C1 /* SLBSBrand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBSBrand.m; sourceTree = "<group>"; };
+		5D59034C1BCDF1B900DEE1C1 /* SLBSBranch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBSBranch.h; sourceTree = "<group>"; };
+		5D59034D1BCDF1B900DEE1C1 /* SLBSBranch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBSBranch.m; sourceTree = "<group>"; };
+		5D5903501BCDF59300DEE1C1 /* SLBSFloor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBSFloor.h; sourceTree = "<group>"; };
+		5D5903511BCDF59300DEE1C1 /* SLBSFloor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBSFloor.m; sourceTree = "<group>"; };
+		5D5903541BCDF7B700DEE1C1 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		5D5903551BCDF7B700DEE1C1 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		5D59035C1BCE2C3D00DEE1C1 /* TenantBizOffInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TenantBizOffInfo.h; sourceTree = "<group>"; };
+		5D59035D1BCE2C3D00DEE1C1 /* TenantBizOffInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TenantBizOffInfo.m; sourceTree = "<group>"; };
+		5D5903601BCE2C4B00DEE1C1 /* TenantBizTimeInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TenantBizTimeInfo.h; sourceTree = "<group>"; };
+		5D5903611BCE2C4B00DEE1C1 /* TenantBizTimeInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TenantBizTimeInfo.m; sourceTree = "<group>"; };
+		5D59A74A1B8EC9C400763627 /* ZoneCoord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoneCoord.h; sourceTree = "<group>"; };
+		5D59A74B1B8EC9C400763627 /* ZoneCoord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoneCoord.m; sourceTree = "<group>"; };
+		5D5AB34D1BCCB232000C8FB5 /* SLBSDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBSDataManager.h; sourceTree = "<group>"; };
+		5D5AB34E1BCCB232000C8FB5 /* SLBSDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBSDataManager.m; sourceTree = "<group>"; };
+		5D5AB3511BCCF982000C8FB5 /* DataNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataNet.h; sourceTree = "<group>"; };
+		5D5AB3521BCCF982000C8FB5 /* DataNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataNet.m; sourceTree = "<group>"; };
+		5D5CB9BA1B99365E00D71B91 /* BeaconUUID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconUUID.h; sourceTree = "<group>"; };
+		5D5CB9BB1B99365E00D71B91 /* BeaconUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconUUID.m; sourceTree = "<group>"; };
+		5D5DDD261B9FC8EC00C44F87 /* ProximitySessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProximitySessionManager.h; sourceTree = "<group>"; };
+		5D5DDD271B9FC8EC00C44F87 /* ProximitySessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProximitySessionManager.m; sourceTree = "<group>"; };
+		5D5EDCC41B9D360200CCF62F /* BLEProximity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLEProximity.h; sourceTree = "<group>"; };
+		5D5EDCC61B9D36B500CCF62F /* BLEProximity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEProximity.m; sourceTree = "<group>"; };
+		5D5EDCCB1B9DA96A00CCF62F /* PositionSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PositionSessionManager.h; sourceTree = "<group>"; };
+		5D5EDCCC1B9DA96A00CCF62F /* PositionSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PositionSessionManager.m; sourceTree = "<group>"; };
+		5D6104C51B9E819D00F8596A /* PositionSessionTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PositionSessionTestCase.m; sourceTree = "<group>"; };
+		5D6104C71B9E81AB00F8596A /* ZoneSessionTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoneSessionTestCase.m; sourceTree = "<group>"; };
+		5D655A351BABD376003BEF89 /* GeofenceSuiteTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeofenceSuiteTest.m; sourceTree = "<group>"; };
+		5D655A371BABEAD0003BEF89 /* ApplicationManagerTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationManagerTestCase.m; sourceTree = "<group>"; };
+		5D67FD021BBE2A230034FD4E /* LogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogManager.h; sourceTree = "<group>"; };
+		5D67FD031BBE2A230034FD4E /* LogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogManager.m; sourceTree = "<group>"; };
+		5D67FD061BBE2C1F0034FD4E /* SLReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLReachability.h; sourceTree = "<group>"; };
+		5D67FD071BBE2C1F0034FD4E /* SLReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLReachability.m; sourceTree = "<group>"; };
+		5D67FD0A1BBE2E090034FD4E /* LogNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogNet.h; sourceTree = "<group>"; };
+		5D67FD0B1BBE2E090034FD4E /* LogNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogNet.m; sourceTree = "<group>"; };
+		5D67FD0E1BBE4D2A0034FD4E /* LogDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogDataManager.h; sourceTree = "<group>"; };
+		5D67FD0F1BBE4D2A0034FD4E /* LogDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogDataManager.m; sourceTree = "<group>"; };
+		5D67FD121BBE55FD0034FD4E /* Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Log.m; sourceTree = "<group>"; };
+		5D69A05E1B96F6E800C0CD3C /* BeaconNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconNet.h; sourceTree = "<group>"; };
+		5D69A05F1B96F6E800C0CD3C /* BeaconNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconNet.m; sourceTree = "<group>"; };
+		5D69A0621B96F70500C0CD3C /* Beacon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Beacon.m; sourceTree = "<group>"; };
+		5D69A0651B97150800C0CD3C /* BeaconNetworkTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconNetworkTestCase.m; sourceTree = "<group>"; };
+		5D69A0671B97151E00C0CD3C /* BeaconDataTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconDataTestCase.m; sourceTree = "<group>"; };
+		5D8FB86B1BAAB41800C2D387 /* DeviceNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceNet.h; sourceTree = "<group>"; };
+		5D8FB86C1BAAB41800C2D387 /* DeviceNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceNet.m; sourceTree = "<group>"; };
+		5DAD32E41B8E1012009CA7DF /* libSLBSSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSLBSSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DAD32E71B8E1012009CA7DF /* SLBSSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLBSSDK.h; sourceTree = "<group>"; };
+		5DAD32EF1B8E1012009CA7DF /* SLBSSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLBSSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DAD32F51B8E1012009CA7DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DAD32FE1B8E110D009CA7DF /* ApplicationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationManager.h; sourceTree = "<group>"; };
+		5DAD32FF1B8E110D009CA7DF /* ApplicationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationManager.m; sourceTree = "<group>"; };
+		5DAD33011B8E110D009CA7DF /* BeaconDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaconDataManager.h; sourceTree = "<group>"; };
+		5DAD33021B8E110D009CA7DF /* BeaconDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconDataManager.m; sourceTree = "<group>"; };
+		5DAD33061B8E110D009CA7DF /* DeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeviceManager.h; path = ../Common/DeviceManager.h; sourceTree = "<group>"; };
+		5DAD33071B8E110D009CA7DF /* DeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeviceManager.m; path = ../Common/DeviceManager.m; sourceTree = "<group>"; };
+		5DAD33081B8E110D009CA7DF /* GFDebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GFDebug.h; sourceTree = "<group>"; };
+		5DAD33111B8E110D009CA7DF /* TSDebugLogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSDebugLogManager.h; sourceTree = "<group>"; };
+		5DAD33121B8E110D009CA7DF /* TSDebugLogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSDebugLogManager.m; sourceTree = "<group>"; };
+		5DAD33131B8E110D009CA7DF /* TSLogTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSLogTableViewController.h; sourceTree = "<group>"; };
+		5DAD33141B8E110D009CA7DF /* TSLogTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSLogTableViewController.m; sourceTree = "<group>"; };
+		5DAD33151B8E110D009CA7DF /* UIViewController+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Utility.h"; sourceTree = "<group>"; };
+		5DAD33161B8E110D009CA7DF /* UIViewController+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Utility.m"; sourceTree = "<group>"; };
+		5DAD33181B8E110D009CA7DF /* Beacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Beacon.h; sourceTree = "<group>"; };
+		5DAD331B1B8E110D009CA7DF /* Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
+		5DAD331C1B8E110D009CA7DF /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
+		5DAD331D1B8E110D009CA7DF /* Zone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zone.h; sourceTree = "<group>"; };
+		5DAD331E1B8E110D009CA7DF /* Zone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zone.m; sourceTree = "<group>"; };
+		5DAD33211B8E110D009CA7DF /* LOCCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOCCoordinate.h; sourceTree = "<group>"; };
+		5DAD33221B8E110D009CA7DF /* LOCCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOCCoordinate.m; sourceTree = "<group>"; };
+		5DAD33241B8E110D009CA7DF /* KalmanFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KalmanFilter.h; sourceTree = "<group>"; };
+		5DAD33251B8E110D009CA7DF /* KalmanFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KalmanFilter.m; sourceTree = "<group>"; };
+		5DAD33261B8E110D009CA7DF /* LowpassFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LowpassFilter.h; sourceTree = "<group>"; };
+		5DAD33271B8E110D009CA7DF /* LowpassFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LowpassFilter.m; sourceTree = "<group>"; };
+		5DAD33281B8E110D009CA7DF /* MapMatchingFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapMatchingFilter.h; sourceTree = "<group>"; };
+		5DAD33291B8E110D009CA7DF /* MapMatchingFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapMatchingFilter.m; sourceTree = "<group>"; };
+		5DAD332A1B8E110D009CA7DF /* MapRoadSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapRoadSource.h; sourceTree = "<group>"; };
+		5DAD332B1B8E110D009CA7DF /* PositionFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PositionFilter.h; sourceTree = "<group>"; };
+		5DAD332C1B8E110D009CA7DF /* LOCLineSegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOCLineSegment.h; sourceTree = "<group>"; };
+		5DAD332D1B8E110D009CA7DF /* LOCLineSegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOCLineSegment.m; sourceTree = "<group>"; };
+		5DAD332E1B8E110D009CA7DF /* LOCLocationEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOCLocationEngine.h; sourceTree = "<group>"; };
+		5DAD332F1B8E110D009CA7DF /* LOCLocationEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOCLocationEngine.m; sourceTree = "<group>"; };
+		5DAD33321B8E110D009CA7DF /* SLBSCoordination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBSCoordination.h; sourceTree = "<group>"; };
+		5DAD33331B8E110D009CA7DF /* SLBSCoordination.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBSCoordination.m; sourceTree = "<group>"; };
+		5DAD33341B8E110D009CA7DF /* SLBSLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBSLocationManager.h; sourceTree = "<group>"; };
+		5DAD33351B8E110D009CA7DF /* SLBSLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBSLocationManager.m; sourceTree = "<group>"; };
+		5DAD333A1B8E110D009CA7DF /* BLEControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEControl.h; sourceTree = "<group>"; };
+		5DAD333B1B8E110D009CA7DF /* BLEControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEControl.m; sourceTree = "<group>"; };
+		5DAD333C1B8E110D009CA7DF /* BLESuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLESuite.h; sourceTree = "<group>"; };
+		5DAD333D1B8E110D009CA7DF /* BLESuite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLESuite.m; sourceTree = "<group>"; };
+		5DAD33441B8E110D009CA7DF /* LSDummySuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDummySuite.h; sourceTree = "<group>"; };
+		5DAD33451B8E110D009CA7DF /* LSDummySuite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDummySuite.m; sourceTree = "<group>"; };
+		5DAD33471B8E110D009CA7DF /* GeofenceSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeofenceSuite.h; sourceTree = "<group>"; };
+		5DAD33481B8E110D009CA7DF /* GeofenceSuite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeofenceSuite.m; sourceTree = "<group>"; };
+		5DAD33491B8E110D009CA7DF /* LSSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSSuite.h; sourceTree = "<group>"; };
+		5DAD334A1B8E110D009CA7DF /* LSSuite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSSuite.m; sourceTree = "<group>"; };
+		5DAD334C1B8E110D009CA7DF /* MapDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapDataManager.h; sourceTree = "<group>"; };
+		5DAD334D1B8E110D009CA7DF /* MapDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapDataManager.m; sourceTree = "<group>"; };
+		5DAD33501B8E110D009CA7DF /* SLBSMapManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBSMapManager.h; sourceTree = "<group>"; };
+		5DAD33511B8E110D009CA7DF /* SLBSMapManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBSMapManager.m; sourceTree = "<group>"; };
+		5DAD33531B8E110D009CA7DF /* INNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INNet.h; sourceTree = "<group>"; };
+		5DAD33541B8E110D009CA7DF /* INNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INNet.m; sourceTree = "<group>"; };
+		5DAD33571B8E110D009CA7DF /* TSNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSNet.h; sourceTree = "<group>"; };
+		5DAD33581B8E110D009CA7DF /* TSNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TSNet.m; sourceTree = "<group>"; };
+		5DAD33591B8E110D009CA7DF /* ZoneNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZoneNet.h; path = ../Network/ZoneNet.h; sourceTree = "<group>"; };
+		5DAD335A1B8E110D009CA7DF /* ZoneNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZoneNet.m; path = ../Network/ZoneNet.m; sourceTree = "<group>"; };
+		5DAD335B1B8E110D009CA7DF /* SLBSKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBSKit.h; sourceTree = "<group>"; };
+		5DAD335C1B8E110D009CA7DF /* SLBSKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBSKit.m; sourceTree = "<group>"; };
+		5DAD335D1B8E110D009CA7DF /* SLBSKitDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBSKitDefine.h; sourceTree = "<group>"; };
+		5DAD335E1B8E110D009CA7DF /* SLBSSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBSSDK.h; sourceTree = "<group>"; };
+		5DAD33601B8E110D009CA7DF /* ZoneDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoneDataManager.h; sourceTree = "<group>"; };
+		5DAD33611B8E110D009CA7DF /* ZoneDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoneDataManager.m; sourceTree = "<group>"; };
+		5DAD33651B8E110D009CA7DF /* SLBSZoneCampaignInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBSZoneCampaignInfo.h; sourceTree = "<group>"; };
+		5DAD33661B8E110D009CA7DF /* SLBSZoneCampaignInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBSZoneCampaignInfo.m; sourceTree = "<group>"; };
+		5DAD33671B8E110D009CA7DF /* SLBSZoneCampaignManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBSZoneCampaignManager.h; sourceTree = "<group>"; };
+		5DAD33681B8E110D009CA7DF /* SLBSZoneCampaignManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBSZoneCampaignManager.m; sourceTree = "<group>"; };
+		5DAD33691B8E110D009CA7DF /* ZoneCampaignDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoneCampaignDataManager.h; sourceTree = "<group>"; };
+		5DAD336A1B8E110D009CA7DF /* ZoneCampaignDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoneCampaignDataManager.m; sourceTree = "<group>"; };
+		5DAD33A81B8E19FC009CA7DF /* ZoneDataTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoneDataTestCase.m; sourceTree = "<group>"; };
+		5DAD33A91B8E19FC009CA7DF /* DeviceManagerTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceManagerTestCase.m; sourceTree = "<group>"; };
+		5DAD33AB1B8E19FC009CA7DF /* KalmanFilterTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KalmanFilterTestCase.m; sourceTree = "<group>"; };
+		5DAD33AC1B8E19FC009CA7DF /* LowpassFilterTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LowpassFilterTestCase.m; sourceTree = "<group>"; };
+		5DAD33AD1B8E19FC009CA7DF /* MapMatchingFilterTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapMatchingFilterTestCase.m; sourceTree = "<group>"; };
+		5DAD33AE1B8E19FC009CA7DF /* SLBSKitTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBSKitTestCase.m; sourceTree = "<group>"; };
+		5DAD33AF1B8E19FC009CA7DF /* SLBSSDKTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBSSDKTests.m; sourceTree = "<group>"; };
+		5DB569731B8F0DC2008050DA /* ZoneNetworkTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZoneNetworkTestCase.m; path = ../ZoneNetworkTestCase.m; sourceTree = "<group>"; };
+		8201DC4F1BAFC28800AA2141 /* GroupLogTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupLogTestCase.m; sourceTree = "<group>"; };
+		82066F541B95648B0028D041 /* ZoneCampaignNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZoneCampaignNet.h; sourceTree = "<group>"; };
+		82066F551B95648B0028D041 /* ZoneCampaignNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoneCampaignNet.m; sourceTree = "<group>"; };
+		82066F611B959F500028D041 /* NSDate+String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+String.h"; sourceTree = "<group>"; };
+		82066F621B959F500028D041 /* NSDate+String.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+String.m"; sourceTree = "<group>"; };
+		82066F631B959F500028D041 /* NSString+SafeCreation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SafeCreation.h"; sourceTree = "<group>"; };
+		82066F641B959F500028D041 /* NSString+SafeCreation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SafeCreation.m"; sourceTree = "<group>"; };
+		82386FC11BB2C46500A94EFD /* MapTitleZoneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapTitleZoneView.h; sourceTree = "<group>"; };
+		82386FC21BB2C46500A94EFD /* MapTitleZoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapTitleZoneView.m; sourceTree = "<group>"; };
+		8266CDA31BC3EC4E0024F40E /* MapStoreBIZoneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapStoreBIZoneView.h; sourceTree = "<group>"; };
+		8266CDA41BC3EC4E0024F40E /* MapStoreBIZoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapStoreBIZoneView.m; sourceTree = "<group>"; };
+		82C7BBC71BD61908008246A8 /* NSString+ExtendedStringDrawFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ExtendedStringDrawFont.h"; sourceTree = "<group>"; };
+		82C7BBC81BD61908008246A8 /* NSString+ExtendedStringDrawFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ExtendedStringDrawFont.m"; sourceTree = "<group>"; };
+		82CBEEFC1B96D01000B56814 /* NSDate+CalendarUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CalendarUnit.h"; sourceTree = "<group>"; };
+		82CBEEFD1B96D01000B56814 /* NSDate+CalendarUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CalendarUnit.m"; sourceTree = "<group>"; };
+		82DB9F571BCF48860026C3F6 /* SLBSMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBSMapViewController.h; sourceTree = "<group>"; };
+		82DB9F581BCF48860026C3F6 /* SLBSMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBSMapViewController.m; sourceTree = "<group>"; };
+		82DB9F601BCF6A6A0026C3F6 /* SLBSMapViewData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBSMapViewData.h; sourceTree = "<group>"; };
+		82DB9F611BCF6A6A0026C3F6 /* SLBSMapViewData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBSMapViewData.m; sourceTree = "<group>"; };
+		82DB9F641BCF6C310026C3F6 /* SLBSMapViewCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBSMapViewCommon.h; sourceTree = "<group>"; };
+		82DB9F651BCF6C310026C3F6 /* SLBSMapViewCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBSMapViewCommon.m; sourceTree = "<group>"; };
+		82DCCFEF1B9719BE00033742 /* ZoneCampaignTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoneCampaignTestCase.m; sourceTree = "<group>"; };
+		82DCCFF11B971AD800033742 /* ZoneCampaignDataTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoneCampaignDataTestCase.m; sourceTree = "<group>"; };
+		82DCCFF31B97DA2100033742 /* ZoneCampaignNetTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZoneCampaignNetTestCase.m; sourceTree = "<group>"; };
+		82DCCFF61B97E58400033742 /* SLBSMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBSMapView.h; sourceTree = "<group>"; };
+		82DCCFF71B97E58400033742 /* SLBSMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBSMapView.m; sourceTree = "<group>"; };
+		82DCD03D1B99742700033742 /* MapPOIZoneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPOIZoneView.h; sourceTree = "<group>"; };
+		82DCD03E1B99742700033742 /* MapPOIZoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPOIZoneView.m; sourceTree = "<group>"; };
+		82DCD03F1B99742700033742 /* MapPolygonZoneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPolygonZoneView.h; sourceTree = "<group>"; };
+		82DCD0401B99742700033742 /* MapPolygonZoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPolygonZoneView.m; sourceTree = "<group>"; };
+		82DCD0411B99742700033742 /* MapZoneView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapZoneView.h; sourceTree = "<group>"; };
+		82DCD0421B99742700033742 /* MapZoneView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapZoneView.m; sourceTree = "<group>"; };
+		82DCD0441B99742700033742 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		82DCD0451B99742700033742 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		82DCD0481B99742700033742 /* Polygon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Polygon.h; sourceTree = "<group>"; };
+		82DCD0491B99742700033742 /* Polygon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Polygon.m; sourceTree = "<group>"; };
+		82DCD04A1B99742700033742 /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		82DCD04B1B99742700033742 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		82DCD07A1B9D258200033742 /* MapImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapImageView.h; sourceTree = "<group>"; };
+		82DCD07B1B9D258200033742 /* MapImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapImageView.m; sourceTree = "<group>"; };
+		82DCD07E1B9D259A00033742 /* MapPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPathView.h; sourceTree = "<group>"; };
+		82DCD07F1B9D259A00033742 /* MapPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPathView.m; sourceTree = "<group>"; };
+		82F1692D1BE384BF005CF9DA /* SLBSPathDirection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBSPathDirection.h; sourceTree = "<group>"; };
+		82F1692E1BE384BF005CF9DA /* SLBSPathDirection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBSPathDirection.m; sourceTree = "<group>"; };
+		AC14564E1BA95B1800D69052 /* MapImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapImageCache.h; sourceTree = "<group>"; };
+		AC14564F1BA95B1800D69052 /* MapImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapImageCache.m; sourceTree = "<group>"; };
+		AC1456521BA960A800D69052 /* MapImageCacheTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapImageCacheTest.m; sourceTree = "<group>"; };
+		AC1D007D1B8F43C20082190D /* BLESessionTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLESessionTest.m; sourceTree = "<group>"; };
+		AC1D007F1B8F449F0082190D /* BLESessionMgrTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLESessionMgrTest.m; sourceTree = "<group>"; };
+		AC1D00811B8F4B530082190D /* BLESelectorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLESelectorTest.m; sourceTree = "<group>"; };
+		AC1D00831B8F4EF60082190D /* BLELocatorTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLELocatorTest.m; sourceTree = "<group>"; };
+		AC1D00851B8F5B9A0082190D /* GeofenceControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeofenceControl.h; sourceTree = "<group>"; };
+		AC1D00861B8F5B9A0082190D /* GeofenceControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeofenceControl.m; sourceTree = "<group>"; };
+		AC1D00891B8F65110082190D /* BLEControlTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEControlTest.m; sourceTree = "<group>"; };
+		AC1D008B1B8F67D70082190D /* GeofenceControlTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeofenceControlTest.m; sourceTree = "<group>"; };
+		AC8B63E61BBEA606001E08CF /* MapPathFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPathFilter.h; sourceTree = "<group>"; };
+		AC8B63E71BBEA606001E08CF /* MapPathFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPathFilter.m; sourceTree = "<group>"; };
+		AC8B63EA1BBEA89E001E08CF /* MapPathFilterTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPathFilterTest.m; sourceTree = "<group>"; };
+		ACA2ED951BA003440010E2B1 /* MapDataManagerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapDataManagerTest.m; sourceTree = "<group>"; };
+		ACA2ED971BA056330010E2B1 /* SLBSMapManagerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBSMapManagerTest.m; sourceTree = "<group>"; };
+		ACC9B89F1B8EAE6E00C9D53A /* LSControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSControl.h; sourceTree = "<group>"; };
+		ACC9B8A01B8EAEEE00C9D53A /* LSPowerManagePolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSPowerManagePolicy.h; sourceTree = "<group>"; };
+		ACC9B8A11B8EAEEE00C9D53A /* LSPowerManagePolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSPowerManagePolicy.m; sourceTree = "<group>"; };
+		ACC9B8A41B8EAF3A00C9D53A /* LSScanMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSScanMode.h; sourceTree = "<group>"; };
+		ACC9B8A51B8EB58800C9D53A /* BLESessionMgr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLESessionMgr.h; sourceTree = "<group>"; };
+		ACC9B8A61B8EB58800C9D53A /* BLESessionMgr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLESessionMgr.m; sourceTree = "<group>"; };
+		ACC9B8A91B8EB59D00C9D53A /* BLELocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLELocator.h; sourceTree = "<group>"; };
+		ACC9B8AA1B8EB59D00C9D53A /* BLELocator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLELocator.m; sourceTree = "<group>"; };
+		ACC9B8AD1B8EB5B600C9D53A /* BLESelector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLESelector.h; sourceTree = "<group>"; };
+		ACC9B8AE1B8EB5B600C9D53A /* BLESelector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLESelector.m; sourceTree = "<group>"; };
+		ACC9B8B11B8ED78500C9D53A /* BLELocationExaminer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLELocationExaminer.h; sourceTree = "<group>"; };
+		ACC9B8B21B8EDC6C00C9D53A /* LSLocationCandidate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLocationCandidate.h; sourceTree = "<group>"; };
+		ACC9B8B31B8EDC6C00C9D53A /* LSLocationCandidate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLocationCandidate.m; sourceTree = "<group>"; };
+		ACC9B8BB1B8EE16C00C9D53A /* LSLocator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSLocator.h; sourceTree = "<group>"; };
+		ACC9B8BC1B8EE27400C9D53A /* BLESessionSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLESessionSource.h; sourceTree = "<group>"; };
+		ACC9B8BD1B8EE2BD00C9D53A /* BLELocationSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BLELocationSource.h; sourceTree = "<group>"; };
+		ACC9B8BE1B8EF55800C9D53A /* BLEBeaconSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEBeaconSession.h; sourceTree = "<group>"; };
+		ACC9B8BF1B8EF55800C9D53A /* BLEBeaconSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEBeaconSession.m; sourceTree = "<group>"; };
+		ACC9B8C21B8EF5C800C9D53A /* BLEBeaconInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEBeaconInfo.h; sourceTree = "<group>"; };
+		ACC9B8C31B8EF5C800C9D53A /* BLEBeaconInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEBeaconInfo.m; sourceTree = "<group>"; };
+		ACC9B8C61B8EFD7400C9D53A /* BLEBeaconScan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEBeaconScan.h; sourceTree = "<group>"; };
+		ACC9B8C71B8EFD7400C9D53A /* BLEBeaconScan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEBeaconScan.m; sourceTree = "<group>"; };
+		ACC9B8CA1B8F131000C9D53A /* BeaconInfoTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeaconInfoTest.m; sourceTree = "<group>"; };
+		ACCD4E191BB39E030075BE8A /* MapPathViewData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPathViewData.h; sourceTree = "<group>"; };
+		ACCD4E1A1BB39E030075BE8A /* MapPathViewData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPathViewData.m; sourceTree = "<group>"; };
+		ACD2BDF01B9D7C7D00887799 /* MapNet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapNet.h; sourceTree = "<group>"; };
+		ACD2BDF11B9D7C7D00887799 /* MapNet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapNet.m; sourceTree = "<group>"; };
+		ACD2BDF41B9D7CCF00887799 /* SLBSMapData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLBSMapData.h; sourceTree = "<group>"; };
+		ACD2BDF51B9D7CCF00887799 /* SLBSMapData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLBSMapData.m; sourceTree = "<group>"; };
+		ACD2BDF81B9D7CE400887799 /* MapGraphInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapGraphInfo.h; sourceTree = "<group>"; };
+		ACD2BDF91B9D7CE400887799 /* MapGraphInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapGraphInfo.m; sourceTree = "<group>"; };
+		ACD2BDFD1B9D7F3900887799 /* MapNetworkTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapNetworkTest.m; sourceTree = "<group>"; };
+		ACD63BF71BB481AC00218A92 /* BLERoadSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLERoadSource.h; sourceTree = "<group>"; };
+		ACD63BF81BB481AC00218A92 /* BLERoadSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLERoadSource.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5DAD32E11B8E1012009CA7DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAD32EC1B8E1012009CA7DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DAD32F01B8E1012009CA7DF /* libSLBSSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D3ED8371BBEADE100E96584 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				5D3ED8381BBEADF100E96584 /* LogManagerTestCase.m */,
+				5D3ED83A1BBEADFF00E96584 /* LogDataManagerTestCase.m */,
+				5D3ED83C1BBEAE0D00E96584 /* LogNetTestCase.m */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		5D5559231BAFE0CF00C82E95 /* Policy */ = {
+			isa = PBXGroup;
+			children = (
+				5D58D1231BB1539B0083E3A9 /* Policy.h */,
+				5D58D1241BB1539B0083E3A9 /* Policy.m */,
+				5D58D1251BB1539B0083E3A9 /* PolicyManager.h */,
+				5D58D1261BB1539B0083E3A9 /* PolicyManager.m */,
+			);
+			path = Policy;
+			sourceTree = "<group>";
+		};
+		5D56A7191BA14B9D0015902C /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				5DAD33061B8E110D009CA7DF /* DeviceManager.h */,
+				5DAD33071B8E110D009CA7DF /* DeviceManager.m */,
+				5D56A71B1BA14EF70015902C /* AESExtention.h */,
+				5D56A71C1BA14EF70015902C /* AESExtention.m */,
+				5D8FB86B1BAAB41800C2D387 /* DeviceNet.h */,
+				5D8FB86C1BAAB41800C2D387 /* DeviceNet.m */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		5D5EDCCA1B9DA93C00CCF62F /* session */ = {
+			isa = PBXGroup;
+			children = (
+				5D5EDCCB1B9DA96A00CCF62F /* PositionSessionManager.h */,
+				5D5EDCCC1B9DA96A00CCF62F /* PositionSessionManager.m */,
+				5D5DDD261B9FC8EC00C44F87 /* ProximitySessionManager.h */,
+				5D5DDD271B9FC8EC00C44F87 /* ProximitySessionManager.m */,
+			);
+			path = session;
+			sourceTree = "<group>";
+		};
+		5D6104C41B9E818500F8596A /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				5D6104C51B9E819D00F8596A /* PositionSessionTestCase.m */,
+				5D6104C71B9E81AB00F8596A /* ZoneSessionTestCase.m */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		5D67FD011BBE2A230034FD4E /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				5D67FD021BBE2A230034FD4E /* LogManager.h */,
+				5D67FD031BBE2A230034FD4E /* LogManager.m */,
+				5D67FD061BBE2C1F0034FD4E /* SLReachability.h */,
+				5D67FD071BBE2C1F0034FD4E /* SLReachability.m */,
+				5D67FD0A1BBE2E090034FD4E /* LogNet.h */,
+				5D67FD0B1BBE2E090034FD4E /* LogNet.m */,
+				5D67FD0E1BBE4D2A0034FD4E /* LogDataManager.h */,
+				5D67FD0F1BBE4D2A0034FD4E /* LogDataManager.m */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		5D69A05B1B96D07600C0CD3C /* ZoneCampaign */ = {
+			isa = PBXGroup;
+			children = (
+				82DCCFF11B971AD800033742 /* ZoneCampaignDataTestCase.m */,
+				82DCCFEF1B9719BE00033742 /* ZoneCampaignTestCase.m */,
+				82DCCFF31B97DA2100033742 /* ZoneCampaignNetTestCase.m */,
+			);
+			path = ZoneCampaign;
+			sourceTree = "<group>";
+		};
+		5D69A0641B9714F400C0CD3C /* Beacon */ = {
+			isa = PBXGroup;
+			children = (
+				5D69A0651B97150800C0CD3C /* BeaconNetworkTestCase.m */,
+				5D69A0671B97151E00C0CD3C /* BeaconDataTestCase.m */,
+			);
+			path = Beacon;
+			sourceTree = "<group>";
+		};
+		5DAD32DB1B8E1012009CA7DF = {
+			isa = PBXGroup;
+			children = (
+				5DAD32E61B8E1012009CA7DF /* SLBSSDK */,
+				5DAD32F31B8E1012009CA7DF /* SLBSSDKTests */,
+				5DAD32E51B8E1012009CA7DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5DAD32E51B8E1012009CA7DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DAD32E41B8E1012009CA7DF /* libSLBSSDK.a */,
+				5DAD32EF1B8E1012009CA7DF /* SLBSSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5DAD32E61B8E1012009CA7DF /* SLBSSDK */ = {
+			isa = PBXGroup;
+			children = (
+				5DAD32FE1B8E110D009CA7DF /* ApplicationManager.h */,
+				5DAD335B1B8E110D009CA7DF /* SLBSKit.h */,
+				5DAD335D1B8E110D009CA7DF /* SLBSKitDefine.h */,
+				5DAD32E71B8E1012009CA7DF /* SLBSSDK.h */,
+				5DAD32FF1B8E110D009CA7DF /* ApplicationManager.m */,
+				5DAD335C1B8E110D009CA7DF /* SLBSKit.m */,
+				5D67FD011BBE2A230034FD4E /* Log */,
+				5DAD33001B8E110D009CA7DF /* Beacon */,
+				5DAD33051B8E110D009CA7DF /* Common */,
+				5DAD33171B8E110D009CA7DF /* DataBase */,
+				5D56A7191BA14B9D0015902C /* Device */,
+				5DAD33201B8E110D009CA7DF /* Location */,
+				5DAD334B1B8E110D009CA7DF /* Map */,
+				82DCCFF51B97E55E00033742 /* MapView */,
+				5DAD33521B8E110D009CA7DF /* Network */,
+				5D5559231BAFE0CF00C82E95 /* Policy */,
+				5DAD335F1B8E110D009CA7DF /* Zone */,
+				5DAD33641B8E110D009CA7DF /* ZoneCampaign */,
+				5DAD335E1B8E110D009CA7DF /* SLBSSDK.h */,
+			);
+			path = SLBSSDK;
+			sourceTree = "<group>";
+		};
+		5DAD32F31B8E1012009CA7DF /* SLBSSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D3ED8371BBEADE100E96584 /* Log */,
+				5D6104C41B9E818500F8596A /* Session */,
+				ACD2BDFC1B9D7F2C00887799 /* Map */,
+				5D69A0641B9714F400C0CD3C /* Beacon */,
+				5D69A05B1B96D07600C0CD3C /* ZoneCampaign */,
+				5DAD33AA1B8E19FC009CA7DF /* LocationEngine */,
+				5DAD33A71B8E19FC009CA7DF /* Zone */,
+				5DAD33A91B8E19FC009CA7DF /* DeviceManagerTestCase.m */,
+				5DAD33AE1B8E19FC009CA7DF /* SLBSKitTestCase.m */,
+				5DAD33AF1B8E19FC009CA7DF /* SLBSSDKTests.m */,
+				5D655A371BABEAD0003BEF89 /* ApplicationManagerTestCase.m */,
+				8201DC4F1BAFC28800AA2141 /* GroupLogTestCase.m */,
+				5DAD32F41B8E1012009CA7DF /* Supporting Files */,
+			);
+			path = SLBSSDKTests;
+			sourceTree = "<group>";
+		};
+		5DAD32F41B8E1012009CA7DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DAD32F51B8E1012009CA7DF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5DAD33001B8E110D009CA7DF /* Beacon */ = {
+			isa = PBXGroup;
+			children = (
+				5DAD33011B8E110D009CA7DF /* BeaconDataManager.h */,
+				5DAD33021B8E110D009CA7DF /* BeaconDataManager.m */,
+				5D69A05E1B96F6E800C0CD3C /* BeaconNet.h */,
+				5D69A05F1B96F6E800C0CD3C /* BeaconNet.m */,
+			);
+			path = Beacon;
+			sourceTree = "<group>";
+		};
+		5DAD33051B8E110D009CA7DF /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				82066F601B959F280028D041 /* Category */,
+				5DAD33081B8E110D009CA7DF /* GFDebug.h */,
+				5DAD33111B8E110D009CA7DF /* TSDebugLogManager.h */,
+				5DAD33121B8E110D009CA7DF /* TSDebugLogManager.m */,
+				5DAD33131B8E110D009CA7DF /* TSLogTableViewController.h */,
+				5DAD33141B8E110D009CA7DF /* TSLogTableViewController.m */,
+				5DAD33151B8E110D009CA7DF /* UIViewController+Utility.h */,
+				5DAD33161B8E110D009CA7DF /* UIViewController+Utility.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		5DAD33171B8E110D009CA7DF /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				5DAD33181B8E110D009CA7DF /* Beacon.h */,
+				5D69A0621B96F70500C0CD3C /* Beacon.m */,
+				5DAD331B1B8E110D009CA7DF /* Log.h */,
+				5DAD331C1B8E110D009CA7DF /* Map.h */,
+				5DAD331D1B8E110D009CA7DF /* Zone.h */,
+				5DAD331E1B8E110D009CA7DF /* Zone.m */,
+				5D59A74A1B8EC9C400763627 /* ZoneCoord.h */,
+				5D59A74B1B8EC9C400763627 /* ZoneCoord.m */,
+				5D5CB9BA1B99365E00D71B91 /* BeaconUUID.h */,
+				5D5CB9BB1B99365E00D71B91 /* BeaconUUID.m */,
+				5D67FD121BBE55FD0034FD4E /* Log.m */,
+				5D5AB34D1BCCB232000C8FB5 /* SLBSDataManager.h */,
+				5D5AB34E1BCCB232000C8FB5 /* SLBSDataManager.m */,
+				5D5AB3511BCCF982000C8FB5 /* DataNet.h */,
+				5D5AB3521BCCF982000C8FB5 /* DataNet.m */,
+				5D5903421BCDEE2600DEE1C1 /* SLBSCompany.h */,
+				5D5903431BCDEE2600DEE1C1 /* SLBSCompany.m */,
+				5D5903481BCDF0C700DEE1C1 /* SLBSBrand.h */,
+				5D5903491BCDF0C700DEE1C1 /* SLBSBrand.m */,
+				5D59034C1BCDF1B900DEE1C1 /* SLBSBranch.h */,
+				5D59034D1BCDF1B900DEE1C1 /* SLBSBranch.m */,
+				5D5903501BCDF59300DEE1C1 /* SLBSFloor.h */,
+				5D5903511BCDF59300DEE1C1 /* SLBSFloor.m */,
+				5D5903541BCDF7B700DEE1C1 /* DataManager.h */,
+				5D5903551BCDF7B700DEE1C1 /* DataManager.m */,
+				5D59035C1BCE2C3D00DEE1C1 /* TenantBizOffInfo.h */,
+				5D59035D1BCE2C3D00DEE1C1 /* TenantBizOffInfo.m */,
+				5D5903601BCE2C4B00DEE1C1 /* TenantBizTimeInfo.h */,
+				5D5903611BCE2C4B00DEE1C1 /* TenantBizTimeInfo.m */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		5DAD33201B8E110D009CA7DF /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				5D5EDCCA1B9DA93C00CCF62F /* session */,
+				5DAD33361B8E110D009CA7DF /* suite */,
+				5DAD33231B8E110D009CA7DF /* filter */,
+				5DAD33211B8E110D009CA7DF /* LOCCoordinate.h */,
+				5DAD33221B8E110D009CA7DF /* LOCCoordinate.m */,
+				5DAD332C1B8E110D009CA7DF /* LOCLineSegment.h */,
+				5DAD332D1B8E110D009CA7DF /* LOCLineSegment.m */,
+				5DAD332E1B8E110D009CA7DF /* LOCLocationEngine.h */,
+				5DAD332F1B8E110D009CA7DF /* LOCLocationEngine.m */,
+				5DAD33321B8E110D009CA7DF /* SLBSCoordination.h */,
+				5DAD33331B8E110D009CA7DF /* SLBSCoordination.m */,
+				5DAD33341B8E110D009CA7DF /* SLBSLocationManager.h */,
+				5DAD33351B8E110D009CA7DF /* SLBSLocationManager.m */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		5DAD33231B8E110D009CA7DF /* filter */ = {
+			isa = PBXGroup;
+			children = (
+				5DAD33241B8E110D009CA7DF /* KalmanFilter.h */,
+				5DAD33251B8E110D009CA7DF /* KalmanFilter.m */,
+				5DAD33261B8E110D009CA7DF /* LowpassFilter.h */,
+				5DAD33271B8E110D009CA7DF /* LowpassFilter.m */,
+				5DAD33281B8E110D009CA7DF /* MapMatchingFilter.h */,
+				5DAD33291B8E110D009CA7DF /* MapMatchingFilter.m */,
+				5DAD332A1B8E110D009CA7DF /* MapRoadSource.h */,
+				5DAD332B1B8E110D009CA7DF /* PositionFilter.h */,
+			);
+			path = filter;
+			sourceTree = "<group>";
+		};
+		5DAD33361B8E110D009CA7DF /* suite */ = {
+			isa = PBXGroup;
+			children = (
+				5DAD33371B8E110D009CA7DF /* BLE */,
+				5DAD33461B8E110D009CA7DF /* Geofence */,
+				ACC9B8BB1B8EE16C00C9D53A /* LSLocator.h */,
+				ACC9B8B21B8EDC6C00C9D53A /* LSLocationCandidate.h */,
+				ACC9B8B31B8EDC6C00C9D53A /* LSLocationCandidate.m */,
+				ACC9B8A41B8EAF3A00C9D53A /* LSScanMode.h */,
+				ACC9B8A01B8EAEEE00C9D53A /* LSPowerManagePolicy.h */,
+				ACC9B8A11B8EAEEE00C9D53A /* LSPowerManagePolicy.m */,
+				ACC9B89F1B8EAE6E00C9D53A /* LSControl.h */,
+				5DAD33441B8E110D009CA7DF /* LSDummySuite.h */,
+				5DAD33451B8E110D009CA7DF /* LSDummySuite.m */,
+				5DAD33491B8E110D009CA7DF /* LSSuite.h */,
+				5DAD334A1B8E110D009CA7DF /* LSSuite.m */,
+			);
+			path = suite;
+			sourceTree = "<group>";
+		};
+		5DAD33371B8E110D009CA7DF /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				ACD63BF71BB481AC00218A92 /* BLERoadSource.h */,
+				ACD63BF81BB481AC00218A92 /* BLERoadSource.m */,
+				ACC9B8C21B8EF5C800C9D53A /* BLEBeaconInfo.h */,
+				ACC9B8C31B8EF5C800C9D53A /* BLEBeaconInfo.m */,
+				ACC9B8C61B8EFD7400C9D53A /* BLEBeaconScan.h */,
+				ACC9B8C71B8EFD7400C9D53A /* BLEBeaconScan.m */,
+				ACC9B8BE1B8EF55800C9D53A /* BLEBeaconSession.h */,
+				ACC9B8BF1B8EF55800C9D53A /* BLEBeaconSession.m */,
+				ACC9B8AD1B8EB5B600C9D53A /* BLESelector.h */,
+				ACC9B8AE1B8EB5B600C9D53A /* BLESelector.m */,
+				ACC9B8A91B8EB59D00C9D53A /* BLELocator.h */,
+				ACC9B8AA1B8EB59D00C9D53A /* BLELocator.m */,
+				ACC9B8A51B8EB58800C9D53A /* BLESessionMgr.h */,
+				ACC9B8A61B8EB58800C9D53A /* BLESessionMgr.m */,
+				5DAD333A1B8E110D009CA7DF /* BLEControl.h */,
+				5DAD333B1B8E110D009CA7DF /* BLEControl.m */,
+				5DAD333C1B8E110D009CA7DF /* BLESuite.h */,
+				5DAD333D1B8E110D009CA7DF /* BLESuite.m */,
+				ACC9B8B11B8ED78500C9D53A /* BLELocationExaminer.h */,
+				ACC9B8BC1B8EE27400C9D53A /* BLESessionSource.h */,
+				ACC9B8BD1B8EE2BD00C9D53A /* BLELocationSource.h */,
+				5D5EDCC41B9D360200CCF62F /* BLEProximity.h */,
+				5D5EDCC61B9D36B500CCF62F /* BLEProximity.m */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+		5DAD33461B8E110D009CA7DF /* Geofence */ = {
+			isa = PBXGroup;
+			children = (
+				5DAD33471B8E110D009CA7DF /* GeofenceSuite.h */,
+				5DAD33481B8E110D009CA7DF /* GeofenceSuite.m */,
+				AC1D00851B8F5B9A0082190D /* GeofenceControl.h */,
+				AC1D00861B8F5B9A0082190D /* GeofenceControl.m */,
+			);
+			path = Geofence;
+			sourceTree = "<group>";
+		};
+		5DAD334B1B8E110D009CA7DF /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				AC8B63E61BBEA606001E08CF /* MapPathFilter.h */,
+				AC8B63E71BBEA606001E08CF /* MapPathFilter.m */,
+				ACCD4E191BB39E030075BE8A /* MapPathViewData.h */,
+				ACCD4E1A1BB39E030075BE8A /* MapPathViewData.m */,
+				ACD2BDF81B9D7CE400887799 /* MapGraphInfo.h */,
+				ACD2BDF91B9D7CE400887799 /* MapGraphInfo.m */,
+				ACD2BDF41B9D7CCF00887799 /* SLBSMapData.h */,
+				ACD2BDF51B9D7CCF00887799 /* SLBSMapData.m */,
+				ACD2BDF01B9D7C7D00887799 /* MapNet.h */,
+				ACD2BDF11B9D7C7D00887799 /* MapNet.m */,
+				5DAD334C1B8E110D009CA7DF /* MapDataManager.h */,
+				5DAD334D1B8E110D009CA7DF /* MapDataManager.m */,
+				5DAD33501B8E110D009CA7DF /* SLBSMapManager.h */,
+				5DAD33511B8E110D009CA7DF /* SLBSMapManager.m */,
+				AC14564E1BA95B1800D69052 /* MapImageCache.h */,
+				AC14564F1BA95B1800D69052 /* MapImageCache.m */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		5DAD33521B8E110D009CA7DF /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5DAD33531B8E110D009CA7DF /* INNet.h */,
+				5DAD33541B8E110D009CA7DF /* INNet.m */,
+				5DAD33571B8E110D009CA7DF /* TSNet.h */,
+				5DAD33581B8E110D009CA7DF /* TSNet.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5DAD335F1B8E110D009CA7DF /* Zone */ = {
+			isa = PBXGroup;
+			children = (
+				5DAD33601B8E110D009CA7DF /* ZoneDataManager.h */,
+				5DAD33611B8E110D009CA7DF /* ZoneDataManager.m */,
+				5DAD33591B8E110D009CA7DF /* ZoneNet.h */,
+				5DAD335A1B8E110D009CA7DF /* ZoneNet.m */,
+			);
+			path = Zone;
+			sourceTree = "<group>";
+		};
+		5DAD33641B8E110D009CA7DF /* ZoneCampaign */ = {
+			isa = PBXGroup;
+			children = (
+				82066F541B95648B0028D041 /* ZoneCampaignNet.h */,
+				82066F551B95648B0028D041 /* ZoneCampaignNet.m */,
+				5DAD33651B8E110D009CA7DF /* SLBSZoneCampaignInfo.h */,
+				5DAD33661B8E110D009CA7DF /* SLBSZoneCampaignInfo.m */,
+				5DAD33671B8E110D009CA7DF /* SLBSZoneCampaignManager.h */,
+				5DAD33681B8E110D009CA7DF /* SLBSZoneCampaignManager.m */,
+				5DAD33691B8E110D009CA7DF /* ZoneCampaignDataManager.h */,
+				5DAD336A1B8E110D009CA7DF /* ZoneCampaignDataManager.m */,
+			);
+			path = ZoneCampaign;
+			sourceTree = "<group>";
+		};
+		5DAD33A71B8E19FC009CA7DF /* Zone */ = {
+			isa = PBXGroup;
+			children = (
+				5DB569731B8F0DC2008050DA /* ZoneNetworkTestCase.m */,
+				5DAD33A81B8E19FC009CA7DF /* ZoneDataTestCase.m */,
+			);
+			name = Zone;
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5DAD33AA1B8E19FC009CA7DF /* LocationEngine */ = {
+			isa = PBXGroup;
+			children = (
+				AC1D00891B8F65110082190D /* BLEControlTest.m */,
+				AC1D008B1B8F67D70082190D /* GeofenceControlTest.m */,
+				AC1D00831B8F4EF60082190D /* BLELocatorTest.m */,
+				AC1D00811B8F4B530082190D /* BLESelectorTest.m */,
+				AC1D007D1B8F43C20082190D /* BLESessionTest.m */,
+				AC1D007F1B8F449F0082190D /* BLESessionMgrTest.m */,
+				ACC9B8CA1B8F131000C9D53A /* BeaconInfoTest.m */,
+				5DAD33AB1B8E19FC009CA7DF /* KalmanFilterTestCase.m */,
+				5DAD33AC1B8E19FC009CA7DF /* LowpassFilterTestCase.m */,
+				5DAD33AD1B8E19FC009CA7DF /* MapMatchingFilterTestCase.m */,
+				5D655A351BABD376003BEF89 /* GeofenceSuiteTest.m */,
+			);
+			path = LocationEngine;
+			sourceTree = "<group>";
+		};
+		82066F601B959F280028D041 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				82066F611B959F500028D041 /* NSDate+String.h */,
+				82066F621B959F500028D041 /* NSDate+String.m */,
+				82066F631B959F500028D041 /* NSString+SafeCreation.h */,
+				82066F641B959F500028D041 /* NSString+SafeCreation.m */,
+				82CBEEFC1B96D01000B56814 /* NSDate+CalendarUnit.h */,
+				82CBEEFD1B96D01000B56814 /* NSDate+CalendarUnit.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		82DCCFF51B97E55E00033742 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				82DCD03C1B99742700033742 /* MapZone */,
+				82DCCFF61B97E58400033742 /* SLBSMapView.h */,
+				82DCCFF71B97E58400033742 /* SLBSMapView.m */,
+				82DB9F641BCF6C310026C3F6 /* SLBSMapViewCommon.h */,
+				82DB9F651BCF6C310026C3F6 /* SLBSMapViewCommon.m */,
+				82DB9F601BCF6A6A0026C3F6 /* SLBSMapViewData.h */,
+				82DB9F611BCF6A6A0026C3F6 /* SLBSMapViewData.m */,
+				82DB9F571BCF48860026C3F6 /* SLBSMapViewController.h */,
+				82DB9F581BCF48860026C3F6 /* SLBSMapViewController.m */,
+			);
+			name = MapView;
+			path = SLBSSDK/MapView;
+			sourceTree = SOURCE_ROOT;
+		};
+		82DCD03C1B99742700033742 /* MapZone */ = {
+			isa = PBXGroup;
+			children = (
+				82DCD0431B99742700033742 /* Polygon */,
+				82DCD03D1B99742700033742 /* MapPOIZoneView.h */,
+				82DCD03E1B99742700033742 /* MapPOIZoneView.m */,
+				82DCD03F1B99742700033742 /* MapPolygonZoneView.h */,
+				82DCD0401B99742700033742 /* MapPolygonZoneView.m */,
+				82C7BBC71BD61908008246A8 /* NSString+ExtendedStringDrawFont.h */,
+				82C7BBC81BD61908008246A8 /* NSString+ExtendedStringDrawFont.m */,
+				82386FC11BB2C46500A94EFD /* MapTitleZoneView.h */,
+				82386FC21BB2C46500A94EFD /* MapTitleZoneView.m */,
+				8266CDA31BC3EC4E0024F40E /* MapStoreBIZoneView.h */,
+				8266CDA41BC3EC4E0024F40E /* MapStoreBIZoneView.m */,
+				82DCD0411B99742700033742 /* MapZoneView.h */,
+				82DCD0421B99742700033742 /* MapZoneView.m */,
+				82DCD04A1B99742700033742 /* UIView+Additions.h */,
+				82DCD04B1B99742700033742 /* UIView+Additions.m */,
+				82DCD07A1B9D258200033742 /* MapImageView.h */,
+				82DCD07B1B9D258200033742 /* MapImageView.m */,
+				82DCD07E1B9D259A00033742 /* MapPathView.h */,
+				82DCD07F1B9D259A00033742 /* MapPathView.m */,
+				82F1692D1BE384BF005CF9DA /* SLBSPathDirection.h */,
+				82F1692E1BE384BF005CF9DA /* SLBSPathDirection.m */,
+			);
+			path = MapZone;
+			sourceTree = "<group>";
+		};
+		82DCD0431B99742700033742 /* Polygon */ = {
+			isa = PBXGroup;
+			children = (
+				82DCD0441B99742700033742 /* Location.h */,
+				82DCD0451B99742700033742 /* Location.m */,
+				82DCD0481B99742700033742 /* Polygon.h */,
+				82DCD0491B99742700033742 /* Polygon.m */,
+			);
+			path = Polygon;
+			sourceTree = "<group>";
+		};
+		ACD2BDFC1B9D7F2C00887799 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				AC8B63EA1BBEA89E001E08CF /* MapPathFilterTest.m */,
+				AC1456521BA960A800D69052 /* MapImageCacheTest.m */,
+				ACA2ED951BA003440010E2B1 /* MapDataManagerTest.m */,
+				ACD2BDFD1B9D7F3900887799 /* MapNetworkTest.m */,
+				ACA2ED971BA056330010E2B1 /* SLBSMapManagerTest.m */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5DAD33971B8E1200009CA7DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFD2ED51BAFE85000C9D56C /* Zone.h in Headers */,
+				5D5903621BCE2C4B00DEE1C1 /* TenantBizTimeInfo.h in Headers */,
+				ACD2BDFA1B9D7CE400887799 /* MapGraphInfo.h in Headers */,
+				5DAD33981B8E120E009CA7DF /* ApplicationManager.h in Headers */,
+				5D67FD041BBE2A230034FD4E /* LogManager.h in Headers */,
+				5DAD33991B8E12A5009CA7DF /* SLBSLocationManager.h in Headers */,
+				5D5DDD281B9FC8EC00C44F87 /* ProximitySessionManager.h in Headers */,
+				5D5903561BCDF7B700DEE1C1 /* DataManager.h in Headers */,
+				AC8B63E81BBEA606001E08CF /* MapPathFilter.h in Headers */,
+				5DAD339D1B8E12EC009CA7DF /* SLBSZoneCampaignInfo.h in Headers */,
+				5D59034E1BCDF1B900DEE1C1 /* SLBSBranch.h in Headers */,
+				82F1692F1BE384BF005CF9DA /* SLBSPathDirection.h in Headers */,
+				5D5903441BCDEE2600DEE1C1 /* SLBSCompany.h in Headers */,
+				5D5903521BCDF59300DEE1C1 /* SLBSFloor.h in Headers */,
+				5D5AB34F1BCCB232000C8FB5 /* SLBSDataManager.h in Headers */,
+				82DB9F591BCF48860026C3F6 /* SLBSMapViewController.h in Headers */,
+				5D59034A1BCDF0C700DEE1C1 /* SLBSBrand.h in Headers */,
+				82DB9F621BCF6A6A0026C3F6 /* SLBSMapViewData.h in Headers */,
+				5D69A0601B96F6E800C0CD3C /* BeaconNet.h in Headers */,
+				8266CDA51BC3EC4E0024F40E /* MapStoreBIZoneView.h in Headers */,
+				82DCCFF81B97E58400033742 /* SLBSMapView.h in Headers */,
+				B19010811B9EDD350005165B /* TSNet.h in Headers */,
+				B190107E1B9EDC960005165B /* INNet.h in Headers */,
+				5D67FD081BBE2C1F0034FD4E /* SLReachability.h in Headers */,
+				82DCD0801B9D259A00033742 /* MapPathView.h in Headers */,
+				5D67FD0C1BBE2E090034FD4E /* LogNet.h in Headers */,
+				ACCD4E1B1BB39E030075BE8A /* MapPathViewData.h in Headers */,
+				ACD2BDF61B9D7CCF00887799 /* SLBSMapData.h in Headers */,
+				5D58D1271BB1539B0083E3A9 /* Policy.h in Headers */,
+				5DAD339E1B8E12FB009CA7DF /* SLBSZoneCampaignManager.h in Headers */,
+				82CBEEFE1B96D01000B56814 /* NSDate+CalendarUnit.h in Headers */,
+				ACC9B8C81B8EFD7400C9D53A /* BLEBeaconScan.h in Headers */,
+				5D56A71D1BA14EF70015902C /* AESExtention.h in Headers */,
+				82386FC31BB2C46500A94EFD /* MapTitleZoneView.h in Headers */,
+				5D59A74C1B8EC9C400763627 /* ZoneCoord.h in Headers */,
+				5D59035E1BCE2C3D00DEE1C1 /* TenantBizOffInfo.h in Headers */,
+				ACC9B8C41B8EF5C800C9D53A /* BLEBeaconInfo.h in Headers */,
+				ACC9B8AB1B8EB59D00C9D53A /* BLELocator.h in Headers */,
+				ACD63BF91BB481AC00218A92 /* BLERoadSource.h in Headers */,
+				5D5AB3531BCCF982000C8FB5 /* DataNet.h in Headers */,
+				ACC9B8B41B8EDC6C00C9D53A /* LSLocationCandidate.h in Headers */,
+				AC1D00871B8F5B9A0082190D /* GeofenceControl.h in Headers */,
+				5D8FB86D1BAAB41800C2D387 /* DeviceNet.h in Headers */,
+				5DAD339B1B8E12DD009CA7DF /* SLBSMapManager.h in Headers */,
+				82DB9F661BCF6C310026C3F6 /* SLBSMapViewCommon.h in Headers */,
+				ACC9B8AF1B8EB5B600C9D53A /* BLESelector.h in Headers */,
+				ACC9B8A71B8EB58800C9D53A /* BLESessionMgr.h in Headers */,
+				5D5CB9BC1B99365E00D71B91 /* BeaconUUID.h in Headers */,
+				ACD2BDF21B9D7C7D00887799 /* MapNet.h in Headers */,
+				82066F561B95648B0028D041 /* ZoneCampaignNet.h in Headers */,
+				ACC9B8A21B8EAEEE00C9D53A /* LSPowerManagePolicy.h in Headers */,
+				ACC9B8C01B8EF55800C9D53A /* BLEBeaconSession.h in Headers */,
+				5D58D1291BB1539B0083E3A9 /* PolicyManager.h in Headers */,
+				5DEB2F591B8E33B30054A76D /* TSDebugLogManager.h in Headers */,
+				82DCD07C1B9D258200033742 /* MapImageView.h in Headers */,
+				5D5EDCCD1B9DA96A00CCF62F /* PositionSessionManager.h in Headers */,
+				82066F651B959F500028D041 /* NSDate+String.h in Headers */,
+				5D67FD101BBE4D2A0034FD4E /* LogDataManager.h in Headers */,
+				82C7BBC91BD61908008246A8 /* NSString+ExtendedStringDrawFont.h in Headers */,
+				5DAD339A1B8E12AA009CA7DF /* SLBSCoordination.h in Headers */,
+				82066F671B959F500028D041 /* NSString+SafeCreation.h in Headers */,
+				AC1456501BA95B1800D69052 /* MapImageCache.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5DAD32E31B8E1012009CA7DF /* SLBSSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DAD32F81B8E1012009CA7DF /* Build configuration list for PBXNativeTarget "SLBSSDK" */;
+			buildPhases = (
+				5DAD32E01B8E1012009CA7DF /* Sources */,
+				5DAD32E11B8E1012009CA7DF /* Frameworks */,
+				5DAD32E21B8E1012009CA7DF /* CopyFiles */,
+				5DAD33971B8E1200009CA7DF /* Headers */,
+				5DAD339F1B8E14F0009CA7DF /* Build Framework */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLBSSDK;
+			productName = SLBSSDK;
+			productReference = 5DAD32E41B8E1012009CA7DF /* libSLBSSDK.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5DAD32EE1B8E1012009CA7DF /* SLBSSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DAD32FB1B8E1012009CA7DF /* Build configuration list for PBXNativeTarget "SLBSSDKTests" */;
+			buildPhases = (
+				5DAD32EB1B8E1012009CA7DF /* Sources */,
+				5DAD32EC1B8E1012009CA7DF /* Frameworks */,
+				5DAD32ED1B8E1012009CA7DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5DAD32F21B8E1012009CA7DF /* PBXTargetDependency */,
+			);
+			name = SLBSSDKTests;
+			productName = SLBSSDKTests;
+			productReference = 5DAD32EF1B8E1012009CA7DF /* SLBSSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5DAD32DC1B8E1012009CA7DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = nemustech;
+				TargetAttributes = {
+					5DAD32E31B8E1012009CA7DF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					5DAD32EE1B8E1012009CA7DF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					5DAD33A01B8E161D009CA7DF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 5DAD32DF1B8E1012009CA7DF /* Build configuration list for PBXProject "SLBSSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5DAD32DB1B8E1012009CA7DF;
+			productRefGroup = 5DAD32E51B8E1012009CA7DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5DAD32E31B8E1012009CA7DF /* SLBSSDK */,
+				5DAD32EE1B8E1012009CA7DF /* SLBSSDKTests */,
+				5DAD33A01B8E161D009CA7DF /* Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5DAD32ED1B8E1012009CA7DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5DAD339F1B8E14F0009CA7DF /* Build Framework */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Build Framework";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport FRAMEWORK_LOCN=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.framework\"\n\n# Create the path to the real Headers die\nmkdir -p \"${FRAMEWORK_LOCN}/Versions/A/Headers\"\n\n# Create the required symlinks\n/bin/ln -sfh A \"${FRAMEWORK_LOCN}/Versions/Current\"\n/bin/ln -sfh Versions/Current/Headers \"${FRAMEWORK_LOCN}/Headers\"\n/bin/ln -sfh \"Versions/Current/${PRODUCT_NAME}\" \\\n\"${FRAMEWORK_LOCN}/${PRODUCT_NAME}\"\n\n# Copy the public headers into the framework\n/bin/cp -a \"${TARGET_BUILD_DIR}/${PUBLIC_HEADERS_FOLDER_PATH}/\" \\\n\"${FRAMEWORK_LOCN}/Versions/A/Headers\"";
+		};
+		5DAD33A61B8E1643009CA7DF /* MultiPlatform Build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "MultiPlatform Build";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset +u\n# Avoid recursively calling this script.\nif [[ $SF_MASTER_SCRIPT_RUNNING ]]\nthen\nexit 0\nfi\nset -u\nexport SF_MASTER_SCRIPT_RUNNING=1\n\nSF_TARGET_NAME=${PROJECT_NAME}\nSF_EXECUTABLE_PATH=\"lib${SF_TARGET_NAME}.a\"\nSF_WRAPPER_NAME=\"${SF_TARGET_NAME}.framework\"\n\n# The following conditionals come from\n# https://github.com/kstenerud/iOS-Universal-Framework\n\nif [[ \"$SDK_NAME\" =~ ([A-Za-z]+) ]]\nthen\nSF_SDK_PLATFORM=${BASH_REMATCH[1]}\nelse\necho \"Could not find platform name from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SDK_NAME\" =~ ([0-9]+.*$) ]]\nthen\nSF_SDK_VERSION=${BASH_REMATCH[1]}\nelse\necho \"Could not find sdk version from SDK_NAME: $SDK_NAME\"\nexit 1\nfi\n\nif [[ \"$SF_SDK_PLATFORM\" = \"iphoneos\" ]]\nthen\nSF_OTHER_PLATFORM=iphonesimulator\nelse\nSF_OTHER_PLATFORM=iphoneos\nfi\n\nif [[ \"$BUILT_PRODUCTS_DIR\" =~ (.*)$SF_SDK_PLATFORM$ ]]\nthen\nSF_OTHER_BUILT_PRODUCTS_DIR=\"${BASH_REMATCH[1]}${SF_OTHER_PLATFORM}\"\nelse\necho \"Could not find platform name from build products directory: $BUILT_PRODUCTS_DIR\"\nexit 1\nfi\n\n\n#echo \"CMD : xcrun xcodebuild -project \\\"${PROJECT_FILE_PATH}\\\" -target \\\"${TARGET_NAME}\\\" -configuration \\\"${CONFIGURATION}\\\" -sdk ${SF_OTHER_PLATFORM}${SF_SDK_VERSION} BUILD_DIR=\\\"${BUILD_DIR}\\\" OBJROOT=\\\"${OBJROOT}\\\" BUILD_ROOT=\\\"${BUILD_ROOT}\\\" SYMROOT=\\\"${SYMROOT}\\\" $ACTION\"\n\n# Build the other platform.\nxcrun xcodebuild -project \"${PROJECT_FILE_PATH}\" -target \"${TARGET_NAME}\" -configuration \"${CONFIGURATION}\" -sdk ${SF_OTHER_PLATFORM}${SF_SDK_VERSION} BUILD_DIR=\"${BUILD_DIR}\" OBJROOT=\"${OBJROOT}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\" $ACTION\n\n# Smash the two static libraries into one fat binary and store it in the .framework\nxcrun lipo -create \"${BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_EXECUTABLE_PATH}\" -output \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"\n\n# Copy the binary to the other architecture folder to have a complete framework in both.\ncp -a \"${BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\" \"${SF_OTHER_BUILT_PRODUCTS_DIR}/${SF_WRAPPER_NAME}/Versions/A/${SF_TARGET_NAME}\"\n\n# Copy the Framework & Resources bundle to the user's desktop\n#ditto \"${BUILT_PRODUCTS_DIR}/${PROJECT_NAME}.framework\" \"../SampleApplication/${PROJECT_NAME}.framework\"\nditto \"${BUILT_PRODUCTS_DIR}/${PROJECT_NAME}.framework\" \"${HOME}/Desktop/${PROJECT_NAME}.framework\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5DAD32E01B8E1012009CA7DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC1456511BA95B1800D69052 /* MapImageCache.m in Sources */,
+				5D67FD111BBE4D2A0034FD4E /* LogDataManager.m in Sources */,
+				5DAD33911B8E110D009CA7DF /* SLBSKit.m in Sources */,
+				5DAD33741B8E110D009CA7DF /* TSLogTableViewController.m in Sources */,
+				82F169301BE384BF005CF9DA /* SLBSPathDirection.m in Sources */,
+				5DAD33751B8E110D009CA7DF /* UIViewController+Utility.m in Sources */,
+				5D59035F1BCE2C3D00DEE1C1 /* TenantBizOffInfo.m in Sources */,
+				5D5AB3541BCCF982000C8FB5 /* DataNet.m in Sources */,
+				ACC9B8A31B8EAEEE00C9D53A /* LSPowerManagePolicy.m in Sources */,
+				5D67FD091BBE2C1F0034FD4E /* SLReachability.m in Sources */,
+				5D67FD051BBE2A230034FD4E /* LogManager.m in Sources */,
+				82DCD0601B9978B600033742 /* MapPOIZoneView.m in Sources */,
+				82DB9F631BCF6A6A0026C3F6 /* SLBSMapViewData.m in Sources */,
+				ACC9B8C91B8EFD7400C9D53A /* BLEBeaconScan.m in Sources */,
+				5D69A0631B96F70500C0CD3C /* Beacon.m in Sources */,
+				ACC9B8C51B8EF5C800C9D53A /* BLEBeaconInfo.m in Sources */,
+				5DAD33791B8E110D009CA7DF /* KalmanFilter.m in Sources */,
+				82DCD0811B9D259A00033742 /* MapPathView.m in Sources */,
+				5D69A0611B96F6E800C0CD3C /* BeaconNet.m in Sources */,
+				5D67FD0D1BBE2E090034FD4E /* LogNet.m in Sources */,
+				ACCD4E1C1BB39E030075BE8A /* MapPathViewData.m in Sources */,
+				82066F571B95648B0028D041 /* ZoneCampaignNet.m in Sources */,
+				5D5903631BCE2C4B00DEE1C1 /* TenantBizTimeInfo.m in Sources */,
+				82DCD07D1B9D258200033742 /* MapImageView.m in Sources */,
+				5DAD336B1B8E110D009CA7DF /* ApplicationManager.m in Sources */,
+				5D5903571BCDF7B700DEE1C1 /* DataManager.m in Sources */,
+				5DAD337A1B8E110D009CA7DF /* LowpassFilter.m in Sources */,
+				5DAD33961B8E110D009CA7DF /* ZoneCampaignDataManager.m in Sources */,
+				5DAD336E1B8E110D009CA7DF /* DeviceManager.m in Sources */,
+				5DAD33881B8E110D009CA7DF /* GeofenceSuite.m in Sources */,
+				5DAD33771B8E110D009CA7DF /* Zone.m in Sources */,
+				82C7BBCA1BD61908008246A8 /* NSString+ExtendedStringDrawFont.m in Sources */,
+				5DAD338D1B8E110D009CA7DF /* INNet.m in Sources */,
+				5D58D1281BB1539B0083E3A9 /* Policy.m in Sources */,
+				5DAD337C1B8E110D009CA7DF /* LOCLineSegment.m in Sources */,
+				5DAD33941B8E110D009CA7DF /* SLBSZoneCampaignInfo.m in Sources */,
+				82DCD05F1B9978A800033742 /* Polygon.m in Sources */,
+				5D5AB3501BCCB232000C8FB5 /* SLBSDataManager.m in Sources */,
+				5DAD33901B8E110D009CA7DF /* ZoneNet.m in Sources */,
+				82386FC41BB2C46500A94EFD /* MapTitleZoneView.m in Sources */,
+				82DCD05E1B9978A400033742 /* Location.m in Sources */,
+				5DAD33891B8E110D009CA7DF /* LSSuite.m in Sources */,
+				5D58D12A1BB1539B0083E3A9 /* PolicyManager.m in Sources */,
+				5DAD33921B8E110D009CA7DF /* ZoneDataManager.m in Sources */,
+				5DAD336C1B8E110D009CA7DF /* BeaconDataManager.m in Sources */,
+				5DAD337D1B8E110D009CA7DF /* LOCLocationEngine.m in Sources */,
+				AC8B63E91BBEA606001E08CF /* MapPathFilter.m in Sources */,
+				5D59034F1BCDF1B900DEE1C1 /* SLBSBranch.m in Sources */,
+				5D5EDCCE1B9DA96A00CCF62F /* PositionSessionManager.m in Sources */,
+				5D5903451BCDEE2600DEE1C1 /* SLBSCompany.m in Sources */,
+				5DAD337B1B8E110D009CA7DF /* MapMatchingFilter.m in Sources */,
+				5D59034B1BCDF0C700DEE1C1 /* SLBSBrand.m in Sources */,
+				5D56A71E1BA14EF70015902C /* AESExtention.m in Sources */,
+				5D67FD131BBE55FD0034FD4E /* Log.m in Sources */,
+				5DAD33871B8E110D009CA7DF /* LSDummySuite.m in Sources */,
+				5DAD338C1B8E110D009CA7DF /* SLBSMapManager.m in Sources */,
+				8266CDA61BC3EC4E0024F40E /* MapStoreBIZoneView.m in Sources */,
+				ACC9B8B51B8EDC6C00C9D53A /* LSLocationCandidate.m in Sources */,
+				ACC9B8B01B8EB5B600C9D53A /* BLESelector.m in Sources */,
+				82DCD0631B9978C400033742 /* UIView+Additions.m in Sources */,
+				ACD63BFA1BB481AC00218A92 /* BLERoadSource.m in Sources */,
+				ACD2BDF31B9D7C7D00887799 /* MapNet.m in Sources */,
+				AC1D00881B8F5B9A0082190D /* GeofenceControl.m in Sources */,
+				5DAD33831B8E110D009CA7DF /* BLESuite.m in Sources */,
+				ACD2BDFB1B9D7CE400887799 /* MapGraphInfo.m in Sources */,
+				82DB9F671BCF6C310026C3F6 /* SLBSMapViewCommon.m in Sources */,
+				5D5903531BCDF59300DEE1C1 /* SLBSFloor.m in Sources */,
+				5DAD33951B8E110D009CA7DF /* SLBSZoneCampaignManager.m in Sources */,
+				5DAD338A1B8E110D009CA7DF /* MapDataManager.m in Sources */,
+				82DCD0621B9978C000033742 /* MapZoneView.m in Sources */,
+				5D5EDCC71B9D36B500CCF62F /* BLEProximity.m in Sources */,
+				5DAD338F1B8E110D009CA7DF /* TSNet.m in Sources */,
+				ACD2BDF71B9D7CCF00887799 /* SLBSMapData.m in Sources */,
+				82DCD0611B9978B900033742 /* MapPolygonZoneView.m in Sources */,
+				ACC9B8A81B8EB58800C9D53A /* BLESessionMgr.m in Sources */,
+				ACC9B8AC1B8EB59D00C9D53A /* BLELocator.m in Sources */,
+				5DAD33731B8E110D009CA7DF /* TSDebugLogManager.m in Sources */,
+				82066F661B959F500028D041 /* NSDate+String.m in Sources */,
+				82DCCFF91B97E58400033742 /* SLBSMapView.m in Sources */,
+				ACC9B8C11B8EF55800C9D53A /* BLEBeaconSession.m in Sources */,
+				5D5CB9BD1B99365E00D71B91 /* BeaconUUID.m in Sources */,
+				82CBEEFF1B96D01000B56814 /* NSDate+CalendarUnit.m in Sources */,
+				5DAD33781B8E110D009CA7DF /* LOCCoordinate.m in Sources */,
+				5DAD337F1B8E110D009CA7DF /* SLBSCoordination.m in Sources */,
+				5DAD33821B8E110D009CA7DF /* BLEControl.m in Sources */,
+				5D8FB86E1BAAB41800C2D387 /* DeviceNet.m in Sources */,
+				82066F681B959F500028D041 /* NSString+SafeCreation.m in Sources */,
+				5DAD33801B8E110D009CA7DF /* SLBSLocationManager.m in Sources */,
+				82DB9F5A1BCF48860026C3F6 /* SLBSMapViewController.m in Sources */,
+				5D59A74D1B8EC9C400763627 /* ZoneCoord.m in Sources */,
+				5D5DDD291B9FC8EC00C44F87 /* ProximitySessionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DAD32EB1B8E1012009CA7DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DAD33B41B8E19FC009CA7DF /* MapMatchingFilterTestCase.m in Sources */,
+				5DAD33B01B8E19FC009CA7DF /* ZoneDataTestCase.m in Sources */,
+				5D3ED83B1BBEADFF00E96584 /* LogDataManagerTestCase.m in Sources */,
+				82DCCFF21B971AD800033742 /* ZoneCampaignDataTestCase.m in Sources */,
+				5D6104C61B9E819D00F8596A /* PositionSessionTestCase.m in Sources */,
+				5D655A361BABD376003BEF89 /* GeofenceSuiteTest.m in Sources */,
+				5DB569741B8F0DC2008050DA /* ZoneNetworkTestCase.m in Sources */,
+				AC1D007E1B8F43C20082190D /* BLESessionTest.m in Sources */,
+				AC8B63EB1BBEA89E001E08CF /* MapPathFilterTest.m in Sources */,
+				ACD2BDFE1B9D7F3900887799 /* MapNetworkTest.m in Sources */,
+				8201DC501BAFC28800AA2141 /* GroupLogTestCase.m in Sources */,
+				AC1D008C1B8F67D70082190D /* GeofenceControlTest.m in Sources */,
+				AC1D00801B8F449F0082190D /* BLESessionMgrTest.m in Sources */,
+				ACA2ED981BA056330010E2B1 /* SLBSMapManagerTest.m in Sources */,
+				AC1D008A1B8F65110082190D /* BLEControlTest.m in Sources */,
+				AC1D00821B8F4B530082190D /* BLESelectorTest.m in Sources */,
+				5DAD33B31B8E19FC009CA7DF /* LowpassFilterTestCase.m in Sources */,
+				5D3ED83D1BBEAE0D00E96584 /* LogNetTestCase.m in Sources */,
+				5DAD33B11B8E19FC009CA7DF /* DeviceManagerTestCase.m in Sources */,
+				82DCCFF41B97DA2100033742 /* ZoneCampaignNetTestCase.m in Sources */,
+				5DAD33B51B8E19FC009CA7DF /* SLBSKitTestCase.m in Sources */,
+				5D69A0661B97150800C0CD3C /* BeaconNetworkTestCase.m in Sources */,
+				AC1456531BA960A800D69052 /* MapImageCacheTest.m in Sources */,
+				5DAD33B61B8E19FC009CA7DF /* SLBSSDKTests.m in Sources */,
+				5DAD33B21B8E19FC009CA7DF /* KalmanFilterTestCase.m in Sources */,
+				5D3ED8391BBEADF100E96584 /* LogManagerTestCase.m in Sources */,
+				ACA2ED961BA003440010E2B1 /* MapDataManagerTest.m in Sources */,
+				AC1D00841B8F4EF60082190D /* BLELocatorTest.m in Sources */,
+				ACC9B8CB1B8F131000C9D53A /* BeaconInfoTest.m in Sources */,
+				5D69A0681B97151E00C0CD3C /* BeaconDataTestCase.m in Sources */,
+				82DCCFF01B9719BE00033742 /* ZoneCampaignTestCase.m in Sources */,
+				5D655A381BABEAD0003BEF89 /* ApplicationManagerTestCase.m in Sources */,
+				5D6104C81B9E81AB00F8596A /* ZoneSessionTestCase.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5DAD32F21B8E1012009CA7DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DAD32E31B8E1012009CA7DF /* SLBSSDK */;
+			targetProxy = 5DAD32F11B8E1012009CA7DF /* PBXContainerItemProxy */;
+		};
+		5DAD33A51B8E162C009CA7DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5DAD32E31B8E1012009CA7DF /* SLBSSDK */;
+			targetProxy = 5DAD33A41B8E162C009CA7DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5DAD32F61B8E1012009CA7DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5DAD32F71B8E1012009CA7DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5DAD32F91B8E1012009CA7DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					"ENABLE_NSLOG=1",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "${PROJECT_NAME}Headers";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+				VALID_ARCHS = "arm64 armv7s i386 armv7";
+			};
+			name = Debug;
+		};
+		5DAD32FA1B8E1012009CA7DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEAD_CODE_STRIPPING = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "${PROJECT_NAME}Headers";
+				SKIP_INSTALL = YES;
+				STRIP_STYLE = "non-global";
+				VALID_ARCHS = "arm64 armv7s i386 armv7";
+			};
+			name = Release;
+		};
+		5DAD32FC1B8E1012009CA7DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SLBSSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5DAD32FD1B8E1012009CA7DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SLBSSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5DAD33A21B8E161D009CA7DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		5DAD33A31B8E161D009CA7DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DAD32DF1B8E1012009CA7DF /* Build configuration list for PBXProject "SLBSSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAD32F61B8E1012009CA7DF /* Debug */,
+				5DAD32F71B8E1012009CA7DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DAD32F81B8E1012009CA7DF /* Build configuration list for PBXNativeTarget "SLBSSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAD32F91B8E1012009CA7DF /* Debug */,
+				5DAD32FA1B8E1012009CA7DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DAD32FB1B8E1012009CA7DF /* Build configuration list for PBXNativeTarget "SLBSSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAD32FC1B8E1012009CA7DF /* Debug */,
+				5DAD32FD1B8E1012009CA7DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DAD33A11B8E161D009CA7DF /* Build configuration list for PBXAggregateTarget "Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DAD33A21B8E161D009CA7DF /* Debug */,
+				5DAD33A31B8E161D009CA7DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5DAD32DC1B8E1012009CA7DF /* Project object */;
+}

@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: ../../doc/AppleDoc/com.ssg.platform.lbs.SSG-LBS-Platform.docset
+Time: 2015-11-06 05:21:44 +0000
